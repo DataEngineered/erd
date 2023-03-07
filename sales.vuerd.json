@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollTop": -0.8,
+    "scrollLeft": -10.666666666666668,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -43,11 +43,11 @@
   "table": {
     "tables": [
       {
-        "name": "sales",
-        "comment": "",
+        "name": "pegawai",
+        "comment": "db_hr",
         "columns": [
           {
-            "name": "sales_id",
+            "name": "pegawai_id",
             "comment": "",
             "dataType": "VARCHAR",
             "default": "",
@@ -62,7 +62,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 67.7744140625,
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -70,30 +70,7 @@
             "id": "a4801197-d85f-4335-9b57-0ebf423f1851"
           },
           {
-            "name": "sales_name",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 72.09716796875,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "3fc08582-b726-41a2-8c6b-843e8508f5f7"
-          },
-          {
-            "name": "sales_token",
+            "name": "cabang_id",
             "comment": "",
             "dataType": "VARCHAR",
             "default": "",
@@ -108,7 +85,53 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 71.3798828125,
+              "widthName": 61.998046875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "f51be5f5-c60b-438c-8102-59f574d5d982"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "3fc08582-b726-41a2-8c6b-843e8508f5f7"
+          },
+          {
+            "name": "token",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
@@ -137,13 +160,36 @@
               "widthDefault": 60
             },
             "id": "be87aa52-0982-43b1-9a05-1e65a013f7df"
+          },
+          {
+            "name": "level",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "10ac7a6d-9559-4551-bb06-dfaa4172dd92"
           }
         ],
         "ui": {
-          "active": true,
-          "left": 110.4,
-          "top": 28,
-          "zIndex": 267,
+          "active": false,
+          "left": 103.2,
+          "top": 40.8,
+          "zIndex": 335,
           "widthName": 60,
           "widthComment": 60
         },
@@ -151,8 +197,8 @@
         "id": "ac7d2916-8ace-4045-a94b-b7453d2b2674"
       },
       {
-        "name": "sales_data_custumer_prospek",
-        "comment": "",
+        "name": "cust_prospek",
+        "comment": "db_sales",
         "columns": [
           {
             "name": "id",
@@ -316,7 +362,7 @@
             "id": "21ac2e28-458b-4c94-b1c2-35b76f06e0d7"
           },
           {
-            "name": "metode",
+            "name": "metode_ketemuan",
             "comment": "",
             "dataType": "VARCHAR",
             "default": "",
@@ -331,28 +377,51 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 109.681640625,
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "13641536-4367-4847-a6ea-5738304e9fe3"
+          },
+          {
+            "name": "tanggal",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "75a44e31-1a09-4ffb-82e2-a01d04f99c5c"
           }
         ],
         "ui": {
           "active": false,
           "left": 600,
-          "top": 27.2,
-          "zIndex": 231,
-          "widthName": 179.048828125,
+          "top": 11.2,
+          "zIndex": 353,
+          "widthName": 79.32080078125,
           "widthComment": 60
         },
         "visible": true,
         "id": "593c9e49-6741-417d-bcc7-fa5f3544372f"
       },
       {
-        "name": "sales_monitoring_prospek",
-        "comment": "",
+        "name": "monitoring_prospek",
+        "comment": "db_sales",
         "columns": [
           {
             "name": "id",
@@ -445,22 +514,45 @@
               "widthDefault": 60
             },
             "id": "0df47676-eae0-40d0-ac85-0ddade3b4e0b"
+          },
+          {
+            "name": "tanggal_updated",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 98.87158203125,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "24f7579d-7dc1-449a-86c1-666b7051ce5c"
           }
         ],
         "ui": {
           "active": false,
-          "left": 733.6,
-          "top": 359.2,
-          "zIndex": 265,
-          "widthName": 153.75341796875,
+          "left": 605.6,
+          "top": 356.8,
+          "zIndex": 354,
+          "widthName": 116.17529296875,
           "widthComment": 60
         },
         "visible": true,
         "id": "deaa2bdd-3c5d-4de8-a899-06eb6164d262"
       },
       {
-        "name": "sales_data_sebaran",
-        "comment": "",
+        "name": "data_sebaran",
+        "comment": "db_sales",
         "columns": [
           {
             "name": "id",
@@ -553,14 +645,37 @@
               "widthDefault": 60
             },
             "id": "745ab638-e26c-4319-a421-ac4f81af2ea8"
+          },
+          {
+            "name": "tanggal",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9564632f-b7b6-4dda-b8e6-83f8b1be703d"
           }
         ],
         "ui": {
           "active": false,
-          "left": 145.6,
-          "top": 308,
-          "zIndex": 266,
-          "widthName": 119.0888671875,
+          "left": 67.2,
+          "top": 352,
+          "zIndex": 351,
+          "widthName": 81.5107421875,
           "widthComment": 60
         },
         "visible": true,
@@ -583,8 +698,8 @@
           "columnIds": [
             "07cace0b-2b77-4514-827a-35328d421892"
           ],
-          "x": 797.749755859375,
-          "y": 260.2,
+          "x": 801.72021484375,
+          "y": 264.7,
           "direction": "bottom"
         },
         "end": {
@@ -592,8 +707,8 @@
           "columnIds": [
             "b9b1e165-3d7e-4fc4-b95d-35249e3581bb"
           ],
-          "x": 927.734765625,
-          "y": 359.2,
+          "x": 801.915185546875,
+          "y": 356.8,
           "direction": "top"
         },
         "constraintName": "fk_sales_data_custumer_prospek_to_sales_monitoring_prospek",
@@ -609,8 +724,8 @@
           "columnIds": [
             "a4801197-d85f-4335-9b57-0ebf423f1851"
           ],
-          "x": 474.35166015625,
-          "y": 103.5,
+          "x": 462.82890625,
+          "y": 136.8,
           "direction": "right"
         },
         "end": {
@@ -619,7 +734,7 @@
             "597a69db-01bb-4a89-a94a-55053f5065c2"
           ],
           "x": 600,
-          "y": 143.7,
+          "y": 137.95,
           "direction": "left"
         },
         "constraintName": "fk_sales_to_sales_data_custumer_prospek",
@@ -635,8 +750,8 @@
           "columnIds": [
             "a4801197-d85f-4335-9b57-0ebf423f1851"
           ],
-          "x": 292.375830078125,
-          "y": 179,
+          "x": 283.014453125,
+          "y": 232.8,
           "direction": "bottom"
         },
         "end": {
@@ -644,8 +759,8 @@
           "columnIds": [
             "f409be2e-5548-40d3-8e51-971f0fb6ae06"
           ],
-          "x": 360.691552734375,
-          "y": 308,
+          "x": 282.291552734375,
+          "y": 352,
           "direction": "top"
         },
         "constraintName": "fk_sales_to_sales_data_sebaran",
