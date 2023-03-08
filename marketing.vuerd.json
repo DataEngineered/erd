@@ -140,10 +140,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 572,
-          "top": 104,
-          "zIndex": 53,
+          "active": true,
+          "left": 1275,
+          "top": 568,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -271,10 +271,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 80.8,
           "top": 100,
-          "zIndex": 54,
+          "zIndex": 2,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -298,8 +298,8 @@
           "columnIds": [
             "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           ],
-          "x": 572,
-          "y": 179.5,
+          "x": 1275,
+          "y": 643.5,
           "direction": "left"
         },
         "end": {
