@@ -386,10 +386,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 106.4,
-          "top": 32,
-          "zIndex": 21,
+          "active": true,
+          "left": 90.4,
+          "top": 75.2,
+          "zIndex": 30,
           "widthName": 116.17529296875,
           "widthComment": 60
         },
@@ -517,10 +517,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 106.4,
-          "top": 216.8,
-          "zIndex": 28,
+          "active": false,
+          "left": 97.6,
+          "top": 293.6,
+          "zIndex": 29,
           "widthName": 81.5107421875,
           "widthComment": 60
         },
@@ -684,8 +684,8 @@
           "columnIds": [
             "b9b1e165-3d7e-4fc4-b95d-35249e3581bb"
           ],
-          "x": 499.03037109375,
-          "y": 117.75,
+          "x": 483.03037109375,
+          "y": 160.95,
           "direction": "right"
         },
         "constraintName": "fk_sales_data_custumer_prospek_to_sales_monitoring_prospek",
