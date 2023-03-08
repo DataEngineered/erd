@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -49.60000000000005,
-    "scrollLeft": 0,
+    "scrollTop": -60.000000000000064,
+    "scrollLeft": -79.20000000000012,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -140,10 +140,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 756.6,
-          "top": 110.4,
-          "zIndex": 2,
+          "active": true,
+          "left": 591.8,
+          "top": 109.6,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -298,8 +298,8 @@
           "columnIds": [
             "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           ],
-          "x": 756.6,
-          "y": 185.9,
+          "x": 591.8,
+          "y": 185.1,
           "direction": "left"
         },
         "end": {
