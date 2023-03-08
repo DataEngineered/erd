@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "db_customer",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -324,10 +324,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 36.8,
-          "top": 20,
-          "zIndex": 117,
+          "active": true,
+          "left": 33.6,
+          "top": 29.6,
+          "zIndex": 14,
           "widthName": 98.09716796875,
           "widthComment": 77.14990234375
         },
@@ -383,6 +383,29 @@
               "widthDefault": 60
             },
             "id": "f9a3e87f-f42e-4373-872a-5e601d2c0cca"
+          },
+          {
+            "name": "id_program",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.75537109375,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "f0b50082-4b37-4668-a812-23ff459efe3e"
           },
           {
             "name": "kode_odp",
@@ -593,10 +616,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 549.6,
-          "top": 24,
-          "zIndex": 180,
+          "active": false,
+          "left": 535.2,
+          "top": 27.2,
+          "zIndex": 13,
           "widthName": 118.3271484375,
           "widthComment": 77.14990234375
         },
@@ -620,8 +643,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 423.6095703125,
-          "y": 177.5,
+          "x": 420.4095703125,
+          "y": 187.1,
           "direction": "right"
         },
         "end": {
@@ -629,8 +652,8 @@
           "columnIds": [
             "f9a3e87f-f42e-4373-872a-5e601d2c0cca"
           ],
-          "x": 549.6,
-          "y": 171.25,
+          "x": 535.2,
+          "y": 184.7,
           "direction": "left"
         },
         "constraintName": "fk_customer_profile_to_customer_subscribe",

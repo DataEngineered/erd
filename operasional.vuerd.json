@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "db_operasional",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -140,10 +140,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 308.8,
-          "top": 42.4,
-          "zIndex": 87,
+          "active": false,
+          "left": 296.8,
+          "top": 32.8,
+          "zIndex": 3,
           "widthName": 103.18798828125,
           "widthComment": 90.9052734375
         },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 262.4,
           "top": 213.6,
-          "zIndex": 85,
+          "zIndex": 5,
           "widthName": 103.9052734375,
           "widthComment": 90.9052734375
         },
