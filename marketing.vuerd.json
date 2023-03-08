@@ -140,7 +140,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 1275,
           "top": 568,
           "zIndex": 3,
@@ -280,6 +280,21 @@
         },
         "visible": true,
         "id": "e8fe623e-a9a7-43e1-b7ec-1ffbc94be146"
+      },
+      {
+        "name": "asdf",
+        "comment": "",
+        "columns": [],
+        "ui": {
+          "active": true,
+          "left": 1077,
+          "top": 98,
+          "zIndex": 7,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "651b2c3c-7249-46b5-8da5-6c5074b51793"
       }
     ],
     "indexes": []
