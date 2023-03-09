@@ -70,6 +70,29 @@
             "id": "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           },
           {
+            "name": "cabang_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.998046875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "b8cb1291-146b-4290-9f8f-4c4eb39d0d26"
+          },
+          {
             "name": "jenis_program",
             "comment": "",
             "dataType": "VARCHAR",
@@ -116,7 +139,30 @@
             "id": "4ff4fb83-3907-471b-a058-ca24d0f57e08"
           },
           {
-            "name": "created_At",
+            "name": "tanggal_terbuat",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "NOW()",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 92.3525390625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "def033b7-106a-4317-ad87-dfeaa17fc270"
+          },
+          {
+            "name": "tanggal_start",
             "comment": "",
             "dataType": "DATE",
             "default": "",
@@ -131,19 +177,42 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 64.87353515625,
+              "widthName": 77.16259765625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "def033b7-106a-4317-ad87-dfeaa17fc270"
+            "id": "fd35f792-3884-444f-82ef-85c98896d830"
+          },
+          {
+            "name": "tanggal_expired",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 94.51708984375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2c43f4b8-6b3a-4b50-a1a6-a6a2540586de"
           }
         ],
         "ui": {
-          "active": false,
-          "left": 756.6,
-          "top": 110.4,
-          "zIndex": 2,
+          "active": true,
+          "left": 565.4,
+          "top": 60,
+          "zIndex": 47,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -272,9 +341,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 80.8,
-          "top": 100,
-          "zIndex": 1,
+          "left": 49.6,
+          "top": 88.8,
+          "zIndex": 45,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -289,10 +358,10 @@
       {
         "value": "atribut :\n- promo berlaku untuk branch / area mana\n- tanggal di mulai promo & expired",
         "ui": {
-          "active": true,
-          "left": 790,
-          "top": 434,
-          "zIndex": 19,
+          "active": false,
+          "left": 737.2000000000007,
+          "top": 336.39999999999935,
+          "zIndex": 5,
           "width": 317,
           "height": 192
         },
@@ -311,8 +380,8 @@
           "columnIds": [
             "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           ],
-          "x": 756.6,
-          "y": 185.9,
+          "x": 565.4,
+          "y": 166.25,
           "direction": "left"
         },
         "end": {
@@ -320,8 +389,8 @@
           "columnIds": [
             "94ab1abd-0b67-4ddf-81ac-6b811365d45c"
           ],
-          "x": 487.87763671875,
-          "y": 185.75,
+          "x": 456.67763671875,
+          "y": 174.55,
           "direction": "right"
         },
         "constraintName": "fk_program_to_pemk_program",

@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -0.8,
     "scrollLeft": -9.600000000000001,
     "zoomLevel": 1,
     "show": {
@@ -68,29 +68,6 @@
               "widthDefault": 60
             },
             "id": "52873ffd-7738-4d56-809c-4f02f605a0e8"
-          },
-          {
-            "name": "jabatan_id",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 61.998046875,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "18cd78a2-1709-404e-9caa-953d9470fd81"
           },
           {
             "name": "cabang_id",
@@ -233,9 +210,9 @@
         ],
         "ui": {
           "active": true,
-          "left": 75.2,
-          "top": 51.2,
-          "zIndex": 97,
+          "left": 51.2,
+          "top": 25.6,
+          "zIndex": 183,
           "widthName": 60,
           "widthComment": 60
         },
@@ -291,36 +268,13 @@
               "widthDefault": 60
             },
             "id": "f9f60dac-f86c-4748-9eb4-155d8e0d58fc"
-          },
-          {
-            "name": "divisi_id",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "e1db7909-ce02-4ac1-bd36-af28496332cc"
           }
         ],
         "ui": {
           "active": false,
-          "left": 508,
-          "top": 40,
-          "zIndex": 96,
+          "left": 559.2,
+          "top": 49.6,
+          "zIndex": 181,
           "widthName": 60,
           "widthComment": 60
         },
@@ -380,14 +334,122 @@
         ],
         "ui": {
           "active": false,
-          "left": 461.6,
-          "top": 278.4,
-          "zIndex": 95,
+          "left": 597.6,
+          "top": 197.6,
+          "zIndex": 182,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "d0934092-b6ce-4561-acf8-873df7efbc65"
+      },
+      {
+        "name": "gaji",
+        "comment": "db_hr",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "A_I",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c5f6c53d-15e2-4822-a120-de9b7f9060bf"
+          },
+          {
+            "name": "jabatan_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.998046875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "e84f2e59-ac28-46e2-a556-96340e8faee6"
+          },
+          {
+            "name": "gaji",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "91f7cddd-6e48-4afd-90d7-7ab6dc352f75"
+          },
+          {
+            "name": "tunjangan",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "eb946744-77b8-4a04-850e-13c719db2e99"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 248,
+          "top": 294.4,
+          "zIndex": 180,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a"
       }
     ],
     "indexes": []
@@ -398,9 +460,9 @@
         "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?",
         "ui": {
           "active": false,
-          "left": 898.9999999999956,
-          "top": 257.6,
-          "zIndex": 74,
+          "left": 823.7999999999961,
+          "top": 364.00000000000006,
+          "zIndex": 172,
           "width": 376,
           "height": 227
         },
@@ -412,55 +474,29 @@
     "relationships": [
       {
         "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
           "columnIds": [
             "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           ],
-          "x": 508,
-          "y": 105.25,
+          "x": 559.2,
+          "y": 104.6,
           "direction": "left"
         },
         "end": {
-          "tableId": "58336313-4618-439b-9319-2626af150fab",
+          "tableId": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a",
           "columnIds": [
-            "18cd78a2-1709-404e-9caa-953d9470fd81"
+            "e84f2e59-ac28-46e2-a556-96340e8faee6"
           ],
-          "x": 434.82890625,
-          "y": 167.7,
-          "direction": "right"
-        },
-        "constraintName": "fk_jabatan_to_pegawai",
-        "visible": true,
-        "id": "2b9b94fa-ed47-4029-b17f-bace32190e69"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneOnly",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "d0934092-b6ce-4561-acf8-873df7efbc65",
-          "columnIds": [
-            "6fe778dd-72ad-42d1-b92b-90c18181feba"
-          ],
-          "x": 642.7220703125,
-          "y": 278.4,
+          "x": 424.79931640625,
+          "y": 294.4,
           "direction": "top"
         },
-        "end": {
-          "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
-          "columnIds": [
-            "e1db7909-ce02-4ac1-bd36-af28496332cc"
-          ],
-          "x": 695.999755859375,
-          "y": 170.5,
-          "direction": "bottom"
-        },
-        "constraintName": "fk_divisi_to_jabatan",
+        "constraintName": "fk_jabatan_to_gaji",
         "visible": true,
-        "id": "baeb1567-53c5-45fd-9076-b0c344c951b2"
+        "id": "ec3834ce-d6ad-46bd-bade-40346b9da186"
       }
     ]
   }
