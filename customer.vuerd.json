@@ -324,10 +324,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 33.6,
           "top": 29.6,
-          "zIndex": 14,
+          "zIndex": 2,
           "widthName": 98.09716796875,
           "widthComment": 77.14990234375
         },
@@ -619,7 +619,7 @@
           "active": false,
           "left": 535.2,
           "top": 27.2,
-          "zIndex": 13,
+          "zIndex": 1,
           "widthName": 118.3271484375,
           "widthComment": 77.14990234375
         },
@@ -630,7 +630,20 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "- cust_sub belum ada atribut no onu modem\n- cust ikut vlan berapa\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway\n\n- masukan kebutuhan untuk payment gateway juga",
+        "ui": {
+          "active": true,
+          "left": 451.6,
+          "top": 417,
+          "zIndex": 9,
+          "width": 336,
+          "height": 247
+        },
+        "id": "0f84fdb3-cc30-492a-8474-7d7f3ac83f36"
+      }
+    ]
   },
   "relationship": {
     "relationships": [

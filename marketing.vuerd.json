@@ -285,7 +285,20 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "atribut :\n- promo berlaku untuk branch / area mana\n- tanggal di mulai promo & expired",
+        "ui": {
+          "active": true,
+          "left": 790,
+          "top": 434,
+          "zIndex": 19,
+          "width": 317,
+          "height": 192
+        },
+        "id": "676d9b75-45cb-42eb-904f-9790c17ed456"
+      }
+    ]
   },
   "relationship": {
     "relationships": [

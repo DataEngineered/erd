@@ -186,10 +186,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 203.2,
           "top": 72,
-          "zIndex": 51,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60
         },
@@ -200,7 +200,20 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?",
+        "ui": {
+          "active": true,
+          "left": 291,
+          "top": 376,
+          "zIndex": 15,
+          "width": 376,
+          "height": 227
+        },
+        "id": "41d82cf8-6f50-4bb8-b504-15922ceaca55"
+      }
+    ]
   },
   "relationship": {
     "relationships": []
