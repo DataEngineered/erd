@@ -671,10 +671,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 627.2,
-          "top": 304.8,
-          "zIndex": 2,
+          "active": true,
+          "left": 628,
+          "top": 320.8,
+          "zIndex": 12,
           "widthName": 89.42626953125,
           "widthComment": 60
         },

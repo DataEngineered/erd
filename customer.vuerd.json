@@ -901,10 +901,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 581.6,
-          "top": 349.6,
-          "zIndex": 1,
+          "active": true,
+          "left": 583.2,
+          "top": 362.4,
+          "zIndex": 6,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -1002,8 +1002,8 @@
           "columnIds": [
             "d86cb0e9-bd25-4d37-90f7-5384fe942245"
           ],
-          "x": 581.6,
-          "y": 508.975,
+          "x": 583.2,
+          "y": 521.775,
           "direction": "left"
         },
         "constraintName": "fk_cus_profile_to_cust_pembayaran",
@@ -1028,8 +1028,8 @@
           "columnIds": [
             "09ffc6c2-345a-45b3-a69c-644a75428475"
           ],
-          "x": 581.6,
-          "y": 402.725,
+          "x": 583.2,
+          "y": 415.525,
           "direction": "left"
         },
         "constraintName": "fk_virtual_account_to_cust_pembayaran",
