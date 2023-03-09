@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -0.8,
-    "scrollLeft": -9.600000000000001,
+    "scrollTop": 0,
+    "scrollLeft": -51.199999999999996,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -70,6 +70,29 @@
             "id": "52873ffd-7738-4d56-809c-4f02f605a0e8"
           },
           {
+            "name": "jabatan_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.998046875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "dd0f3799-f2d5-4dfe-a147-f9c17b5471ae"
+          },
+          {
             "name": "cabang_id",
             "comment": "",
             "dataType": "VARCHAR",
@@ -95,7 +118,7 @@
           {
             "name": "nama",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -110,7 +133,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "7b19bd0b-369d-4d00-b4e7-29e14f706395"
@@ -206,13 +229,105 @@
               "widthDefault": 60
             },
             "id": "9e998bc7-99de-4e0f-80a2-c857faa440fd"
+          },
+          {
+            "name": "alamat",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "ba8b5f3e-7653-4015-873b-ee53d8fe667a"
+          },
+          {
+            "name": "no_contact",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 65.603515625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "74ac6657-2998-4a87-b63e-5b6f747045a5"
+          },
+          {
+            "name": "no_rekening",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.55712890625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "4ddb86f3-dfbc-4ce5-bcfd-325964c7811e"
+          },
+          {
+            "name": "jenis_kelamin",
+            "comment": "",
+            "dataType": "ENUM(L/P)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80.76171875,
+              "widthComment": 60,
+              "widthDataType": 68.447265625,
+              "widthDefault": 60
+            },
+            "id": "93056321-3895-44a6-87f5-8bfda0191e24"
           }
         ],
         "ui": {
-          "active": true,
-          "left": 51.2,
-          "top": 25.6,
-          "zIndex": 183,
+          "active": false,
+          "left": 67.2,
+          "top": 28.8,
+          "zIndex": 114,
           "widthName": 60,
           "widthComment": 60
         },
@@ -247,6 +362,29 @@
             "id": "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           },
           {
+            "name": "divisi_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "24639719-07b2-492d-9e50-39ac8b9a84ae"
+          },
+          {
             "name": "nama_jabatan",
             "comment": "",
             "dataType": "VARCHAR",
@@ -272,9 +410,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 559.2,
-          "top": 49.6,
-          "zIndex": 181,
+          "left": 571.2,
+          "top": 29.6,
+          "zIndex": 111,
           "widthName": 60,
           "widthComment": 60
         },
@@ -334,9 +472,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 597.6,
-          "top": 197.6,
-          "zIndex": 182,
+          "left": 877.6,
+          "top": 216,
+          "zIndex": 58,
           "widthName": 60,
           "widthComment": 60
         },
@@ -442,14 +580,122 @@
         ],
         "ui": {
           "active": false,
-          "left": 248,
-          "top": 294.4,
-          "zIndex": 180,
+          "left": 497.6,
+          "top": 329.6,
+          "zIndex": 115,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a"
+      },
+      {
+        "name": "pegawai_status",
+        "comment": "db_hr",
+        "columns": [
+          {
+            "name": "pegawai_status_id",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 109.68798828125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "59982c26-e3b8-4683-bc3e-1ee0c130ec7b"
+          },
+          {
+            "name": "pegawai_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 67.7744140625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
+          },
+          {
+            "name": "status_kepegawaian",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 120.52978515625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "b36c4e9c-5f8c-49e4-80af-f81cf249c07f"
+          },
+          {
+            "name": "durasi_kontrak",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.26806640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3adb8bcb-25ec-42ea-a883-42ced1ad1a5a"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 58.4,
+          "top": 438.4,
+          "zIndex": 110,
+          "widthName": 92.33984375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "379c6b53-5a01-42b3-9f1a-2d16044abf33"
       }
     ],
     "indexes": []
@@ -460,9 +706,9 @@
         "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?",
         "ui": {
           "active": false,
-          "left": 823.7999999999961,
-          "top": 364.00000000000006,
-          "zIndex": 172,
+          "left": 890.1999999999962,
+          "top": 375.2000000000002,
+          "zIndex": 63,
           "width": 376,
           "height": 227
         },
@@ -481,22 +727,100 @@
           "columnIds": [
             "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           ],
-          "x": 559.2,
-          "y": 104.6,
-          "direction": "left"
+          "x": 853.1996337890625,
+          "y": 160.1,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a",
           "columnIds": [
             "e84f2e59-ac28-46e2-a556-96340e8faee6"
           ],
-          "x": 424.79931640625,
-          "y": 294.4,
+          "x": 674.39931640625,
+          "y": 329.6,
           "direction": "top"
         },
         "constraintName": "fk_jabatan_to_gaji",
         "visible": true,
         "id": "ec3834ce-d6ad-46bd-bade-40346b9da186"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "d0934092-b6ce-4561-acf8-873df7efbc65",
+          "columnIds": [
+            "6fe778dd-72ad-42d1-b92b-90c18181feba"
+          ],
+          "x": 877.6,
+          "y": 271,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
+          "columnIds": [
+            "24639719-07b2-492d-9e50-39ac8b9a84ae"
+          ],
+          "x": 665.1998779296875,
+          "y": 160.1,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_divisi_to_jabatan",
+        "visible": true,
+        "id": "cfb6643a-ae84-4163-8121-aea4dbe256ef"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
+          "columnIds": [
+            "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
+          ],
+          "x": 571.2,
+          "y": 94.85,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "58336313-4618-439b-9319-2626af150fab",
+          "columnIds": [
+            "dd0f3799-f2d5-4dfe-a147-f9c17b5471ae"
+          ],
+          "x": 462.68046875,
+          "y": 186.3,
+          "direction": "right"
+        },
+        "constraintName": "fk_jabatan_to_pegawai",
+        "visible": true,
+        "id": "bfe034bb-d74a-45a0-8025-437c06f3ec72"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "58336313-4618-439b-9319-2626af150fab",
+          "columnIds": [
+            "52873ffd-7738-4d56-809c-4f02f605a0e8"
+          ],
+          "x": 264.940234375,
+          "y": 343.8,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "379c6b53-5a01-42b3-9f1a-2d16044abf33",
+          "columnIds": [
+            "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
+          ],
+          "x": 264.465185546875,
+          "y": 438.4,
+          "direction": "top"
+        },
+        "constraintName": "fk_pegawai_to_pegawai_status",
+        "visible": true,
+        "id": "a090d203-aaa7-4ac2-8082-358a14ce9251"
       }
     ]
   }

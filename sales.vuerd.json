@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -8.8,
+    "scrollTop": 0,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -258,7 +258,7 @@
           "active": false,
           "left": 634.4,
           "top": 34.4,
-          "zIndex": 18,
+          "zIndex": 4,
           "widthName": 79.32080078125,
           "widthComment": 60
         },
@@ -389,7 +389,7 @@
           "active": false,
           "left": 90.4,
           "top": 75.2,
-          "zIndex": 3,
+          "zIndex": 1,
           "widthName": 116.17529296875,
           "widthComment": 60
         },
@@ -514,13 +514,36 @@
               "widthDefault": 60
             },
             "id": "9564632f-b7b6-4dda-b8e6-83f8b1be703d"
+          },
+          {
+            "name": "keterangan_sebar_brosur",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 150.8779296875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "29e0ba88-bec2-46a3-b31e-c37d0b9e26c8"
           }
         ],
         "ui": {
           "active": false,
           "left": 97.6,
           "top": 293.6,
-          "zIndex": 10,
+          "zIndex": 11,
           "widthName": 81.5107421875,
           "widthComment": 60
         },
@@ -651,7 +674,7 @@
           "active": false,
           "left": 627.2,
           "top": 304.8,
-          "zIndex": 4,
+          "zIndex": 2,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -666,10 +689,10 @@
       {
         "value": "- keteranga sebaran brosur",
         "ui": {
-          "active": true,
+          "active": false,
           "left": 1239,
           "top": 109.8,
-          "zIndex": 19,
+          "zIndex": 5,
           "width": 546,
           "height": 251
         },

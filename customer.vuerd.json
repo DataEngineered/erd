@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollTop": -38.39999999999996,
+    "scrollLeft": -154.40000000000003,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -321,59 +321,13 @@
               "widthDefault": 60
             },
             "id": "2ca7a3a6-368b-4226-afaf-298d5d3bb8bb"
-          },
-          {
-            "name": "tanggal_lahir",
-            "comment": "",
-            "dataType": "DATE",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 76.4453125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "8b0140ca-dd42-4e60-9b91-008ac03e5b25"
-          },
-          {
-            "name": "status_tempat_tinggal",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 129.1943359375,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "ecd5d494-f1b5-4b94-a1d6-fcf881cd3fd0"
           }
         ],
         "ui": {
           "active": false,
-          "left": 57.8,
+          "left": 56.8,
           "top": 11.2,
-          "zIndex": 22,
+          "zIndex": 2,
           "widthName": 64.8671875,
           "widthComment": 77.14990234375
         },
@@ -475,29 +429,6 @@
               "widthDefault": 60
             },
             "id": "4ddaacfd-11a0-4609-811f-a1e753b8e50a"
-          },
-          {
-            "name": "sku_modem",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 72.80810546875,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "d9e03bb2-57f1-48d3-9b56-7ceb06e8f7d9"
           },
           {
             "name": "sn_modem",
@@ -709,9 +640,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 760,
-          "top": 0,
-          "zIndex": 91,
+          "left": 552,
+          "top": 16,
+          "zIndex": 4,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -794,9 +725,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 73.2,
-          "top": 532.8,
-          "zIndex": 24,
+          "left": 87.2,
+          "top": 404.8,
+          "zIndex": 3,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -852,29 +783,6 @@
               "widthDefault": 60
             },
             "id": "d86cb0e9-bd25-4d37-90f7-5384fe942245"
-          },
-          {
-            "name": "cust_subs_id",
-            "comment": "",
-            "dataType": "BIGINT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 77.8798828125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "faeb4c7d-c35d-465e-b88a-cb18f6b3163b"
           },
           {
             "name": "no_va",
@@ -990,36 +898,13 @@
               "widthDefault": 60
             },
             "id": "921a603b-9116-4b49-bfc9-a5a5c72d96e4"
-          },
-          {
-            "name": "tanggal_expired_sljt",
-            "comment": "",
-            "dataType": "DATE",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 117.63525390625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "dbac23ac-942f-4326-b925-f25b08b728d1"
           }
         ],
         "ui": {
           "active": false,
-          "left": 688.6,
-          "top": 506.6,
-          "zIndex": 101,
+          "left": 581.6,
+          "top": 349.6,
+          "zIndex": 1,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -1032,12 +917,12 @@
   "memo": {
     "memos": [
       {
-        "value": "- cust_sub belum ada atribut no onu modem####\n- cust ikut vlan berapa####\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway####\n\n- masukan kebutuhan untuk payment gateway juga#####\n\n- isolir, kabel wo, kabel real",
+        "value": "- cust_sub belum ada atribut no onu modem\n- cust ikut vlan berapa\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway\n\n- masukan kebutuhan untuk payment gateway juga",
         "ui": {
           "active": false,
-          "left": 1423.9999999999982,
-          "top": 79.59999999999843,
-          "zIndex": 89,
+          "left": 1017.9999999999981,
+          "top": 214.59999999999843,
+          "zIndex": 5,
           "width": 336,
           "height": 247
         },
@@ -1056,8 +941,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 478.594921875,
-          "y": 100.2,
+          "x": 443.6095703125,
+          "y": 89.95,
           "direction": "right"
         },
         "end": {
@@ -1065,8 +950,8 @@
           "columnIds": [
             "f9a3e87f-f42e-4373-872a-5e601d2c0cca"
           ],
-          "x": 760,
-          "y": 178,
+          "x": 552,
+          "y": 183.75,
           "direction": "left"
         },
         "constraintName": "fk_customer_profile_to_customer_subscribe",
@@ -1082,8 +967,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 268.1974609375,
-          "y": 367.2,
+          "x": 250.20478515625,
+          "y": 326.2,
           "direction": "bottom"
         },
         "end": {
@@ -1091,8 +976,8 @@
           "columnIds": [
             "dedeb4d3-73e1-4b13-b4c3-bbca1712e3b6"
           ],
-          "x": 262.64384765625,
-          "y": 532.8,
+          "x": 276.64384765625,
+          "y": 404.8,
           "direction": "top"
         },
         "constraintName": "fk_customer_profile_to_virtual_account",
@@ -1108,8 +993,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 478.594921875,
-          "y": 278.2,
+          "x": 443.6095703125,
+          "y": 247.45,
           "direction": "right"
         },
         "end": {
@@ -1117,8 +1002,8 @@
           "columnIds": [
             "d86cb0e9-bd25-4d37-90f7-5384fe942245"
           ],
-          "x": 688.6,
-          "y": 696.725,
+          "x": 581.6,
+          "y": 508.975,
           "direction": "left"
         },
         "constraintName": "fk_cus_profile_to_cust_pembayaran",
@@ -1134,8 +1019,8 @@
           "columnIds": [
             "95ff53ff-98a5-41b5-b264-fd9b842c8307"
           ],
-          "x": 452.0876953125,
-          "y": 598.05,
+          "x": 466.0876953125,
+          "y": 470.05,
           "direction": "right"
         },
         "end": {
@@ -1143,39 +1028,13 @@
           "columnIds": [
             "09ffc6c2-345a-45b3-a69c-644a75428475"
           ],
-          "x": 688.6,
-          "y": 569.975,
+          "x": 581.6,
+          "y": 402.725,
           "direction": "left"
         },
         "constraintName": "fk_virtual_account_to_cust_pembayaran",
         "visible": true,
         "id": "fa317b85-404e-4940-a6df-211ffd123f44"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "d4ae1f12-2e4a-4aac-a43d-a8d02f275deb",
-          "columnIds": [
-            "6c2e19c4-eda4-4990-b021-33cbf4c81bed"
-          ],
-          "x": 967.515625,
-          "y": 356,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "417808ea-c618-4a46-9202-97af73cc2953",
-          "columnIds": [
-            "faeb4c7d-c35d-465e-b88a-cb18f6b3163b"
-          ],
-          "x": 894.297021484375,
-          "y": 506.6,
-          "direction": "top"
-        },
-        "constraintName": "fk_cust_subs_to_cust_pembayaran",
-        "visible": true,
-        "id": "cc1135de-daf7-4700-bd2d-83cfc3aba5c7"
       }
     ]
   }

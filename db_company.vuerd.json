@@ -95,9 +95,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 216,
-          "top": 31.2,
-          "zIndex": 3,
+          "left": 485.6,
+          "top": 30.4,
+          "zIndex": 28,
           "widthName": 70.6689453125,
           "widthComment": 76.43896484375
         },
@@ -203,9 +203,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 92,
-          "top": 210.4,
-          "zIndex": 16,
+          "left": 5.6,
+          "top": 149.6,
+          "zIndex": 27,
           "widthName": 60,
           "widthComment": 76.43896484375
         },
@@ -288,9 +288,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 548,
-          "top": 171.2,
-          "zIndex": 2,
+          "left": 608,
+          "top": 168,
+          "zIndex": 26,
           "widthName": 86.56982421875,
           "widthComment": 76.43896484375
         },
@@ -298,8 +298,8 @@
         "id": "dbd17345-d8af-47b7-9f80-5b38f38d6d28"
       },
       {
-        "name": "db_penanggung_jwb",
-        "comment": "",
+        "name": "penanggung_jwb",
+        "comment": "db_company",
         "columns": [
           {
             "name": "id",
@@ -323,6 +323,29 @@
               "widthDefault": 60
             },
             "id": "edb609b6-ab8c-4aa8-b5ae-7526d32cd503"
+          },
+          {
+            "name": "cabang_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.998046875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "2861ab0c-5450-4f12-b609-d14b2341e2a0"
           },
           {
             "name": "nama",
@@ -441,12 +464,12 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 312,
-          "top": 485,
-          "zIndex": 68,
-          "widthName": 122.72607421875,
-          "widthComment": 60
+          "active": false,
+          "left": 495.2,
+          "top": 315.4,
+          "zIndex": 30,
+          "widthName": 101.0361328125,
+          "widthComment": 76.43896484375
         },
         "visible": true,
         "id": "2d7b67d5-c115-4556-a99a-df73da848989"
@@ -460,9 +483,9 @@
         "value": "- tabel cabang kurang atribut penanggung jawab",
         "ui": {
           "active": false,
-          "left": 1050,
-          "top": 188,
-          "zIndex": 7,
+          "left": 914.0000000000019,
+          "top": 347.19999999999993,
+          "zIndex": 25,
           "width": 371,
           "height": 301
         },
@@ -481,8 +504,8 @@
           "columnIds": [
             "06161ad7-671b-42eb-8376-93ff41cfb990"
           ],
-          "x": 216,
-          "y": 86.2,
+          "x": 485.6,
+          "y": 85.4,
           "direction": "left"
         },
         "end": {
@@ -490,13 +513,39 @@
           "columnIds": [
             "3cf604e8-0382-4f10-976a-311249477322"
           ],
-          "x": 283.249755859375,
-          "y": 210.4,
-          "direction": "top"
+          "x": 388.09951171875,
+          "y": 187.35,
+          "direction": "right"
         },
         "constraintName": "fk_perusahaan_to_cabang",
         "visible": true,
         "id": "645acca1-46c8-4773-b97b-ec454ab08ac6"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b83b60fa-78fb-4248-871c-5e8bf20a0ba7",
+          "columnIds": [
+            "fe00e170-089d-4e7d-bb38-952362fd49c9"
+          ],
+          "x": 388.09951171875,
+          "y": 262.85,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "2d7b67d5-c115-4556-a99a-df73da848989",
+          "columnIds": [
+            "2861ab0c-5450-4f12-b609-d14b2341e2a0"
+          ],
+          "x": 495.2,
+          "y": 421.65,
+          "direction": "left"
+        },
+        "constraintName": "fk_cabang_to_penanggung_jwb",
+        "visible": true,
+        "id": "ea7e6de8-08c5-4264-adf9-2df69fe31691"
       }
     ]
   }
