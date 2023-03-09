@@ -94,10 +94,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 117.6,
           "top": 28.8,
-          "zIndex": 68,
+          "zIndex": 2,
           "widthName": 70.6689453125,
           "widthComment": 76.43896484375
         },
@@ -205,12 +205,97 @@
           "active": false,
           "left": 92,
           "top": 210.4,
-          "zIndex": 67,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 76.43896484375
         },
         "visible": true,
         "id": "b83b60fa-78fb-4248-871c-5e8bf20a0ba7"
+      },
+      {
+        "name": "paket_layanan",
+        "comment": "db_company",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a9a2f1a2-556b-430a-b212-950db41a6948"
+          },
+          {
+            "name": "nama_paket",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.55078125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "6be8a7bf-4163-4bef-a787-0acdef0c6728"
+          },
+          {
+            "name": "harga",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "44dbf602-e46c-4a07-a5b9-0b6264bde877"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 548,
+          "top": 171.2,
+          "zIndex": 27,
+          "widthName": 86.56982421875,
+          "widthComment": 76.43896484375
+        },
+        "visible": true,
+        "id": "dbd17345-d8af-47b7-9f80-5b38f38d6d28"
       }
     ],
     "indexes": []

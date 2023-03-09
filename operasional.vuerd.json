@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 93.6,
-          "top": 24,
-          "zIndex": 115,
+          "left": 92.8,
+          "top": 18.4,
+          "zIndex": 194,
           "widthName": 103.18798828125,
           "widthComment": 90.9052734375
         },
@@ -295,9 +295,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 574.8,
-          "top": 52.6,
-          "zIndex": 155,
+          "left": 557.2,
+          "top": 23.8,
+          "zIndex": 188,
           "widthName": 103.9052734375,
           "widthComment": 90.9052734375
         },
@@ -518,9 +518,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 96,
-          "top": 221.6,
-          "zIndex": 185,
+          "left": 106.4,
+          "top": 205.6,
+          "zIndex": 190,
           "widthName": 60,
           "widthComment": 90.9052734375
         },
@@ -695,9 +695,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 627.2,
-          "top": 272.8,
-          "zIndex": 183,
+          "left": 580,
+          "top": 208.8,
+          "zIndex": 195,
           "widthName": 82.21533203125,
           "widthComment": 90.9052734375
         },
@@ -713,9 +713,9 @@
         "value": "- table arsip\n- table distribusi\n- ",
         "ui": {
           "active": false,
-          "left": 53.60000000000001,
-          "top": 514.2000000000002,
-          "zIndex": 112,
+          "left": 983.1999999999992,
+          "top": 295.7999999999991,
+          "zIndex": 193,
           "width": 315,
           "height": 192
         },
@@ -734,8 +734,8 @@
           "columnIds": [
             "e7d1509a-c377-42c0-9420-7858f5e17059"
           ],
-          "x": 574.8,
-          "y": 138.35,
+          "x": 557.2,
+          "y": 109.55,
           "direction": "left"
         },
         "end": {
@@ -743,8 +743,8 @@
           "columnIds": [
             "7333efce-0d79-4e54-ba35-de5b0fad88f5"
           ],
-          "x": 471.98046875,
-          "y": 411.725,
+          "x": 482.38046875,
+          "y": 395.725,
           "direction": "right"
         },
         "constraintName": "fk_jdw_pemasangan_to_arsip",
@@ -760,8 +760,8 @@
           "columnIds": [
             "08ae74de-d431-411e-b4b1-1007e1c3463c"
           ],
-          "x": 627.2,
-          "y": 379.05,
+          "x": 580,
+          "y": 315.05,
           "direction": "left"
         },
         "end": {
@@ -769,8 +769,8 @@
           "columnIds": [
             "7cb5794c-55eb-4555-85bb-bf9da7bb79da"
           ],
-          "x": 471.98046875,
-          "y": 284.975,
+          "x": 482.38046875,
+          "y": 268.975,
           "direction": "right"
         },
         "constraintName": "fk_distribusi_odp_to_arsip",

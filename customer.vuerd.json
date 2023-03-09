@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -0.8,
-    "scrollLeft": -15.200000000000054,
+    "scrollTop": 0,
+    "scrollLeft": -0.8,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -325,9 +325,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 54.4,
-          "top": 0,
-          "zIndex": 164,
+          "left": 56.8,
+          "top": 11.2,
+          "zIndex": 194,
           "widthName": 64.8671875,
           "widthComment": 77.14990234375
         },
@@ -408,7 +408,7 @@
             "id": "f0b50082-4b37-4668-a812-23ff459efe3e"
           },
           {
-            "name": "kode_odp",
+            "name": "id_odp",
             "comment": "",
             "dataType": "VARCHAR",
             "default": "",
@@ -569,29 +569,6 @@
             "id": "b2582bee-e96d-4d57-905b-ded69c136915"
           },
           {
-            "name": "vlan_cust",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "f4895dca-496c-449d-becf-3430436249cc"
-          },
-          {
             "name": "status_berlangganan",
             "comment": "",
             "dataType": "VARCHAR",
@@ -665,7 +642,7 @@
           "active": false,
           "left": 555.2,
           "top": 0,
-          "zIndex": 165,
+          "zIndex": 191,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -747,10 +724,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 4.8,
-          "top": 380.8,
-          "zIndex": 171,
+          "active": true,
+          "left": 87.2,
+          "top": 404.8,
+          "zIndex": 198,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -925,9 +902,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 548,
-          "top": 364.8,
-          "zIndex": 172,
+          "left": 581.6,
+          "top": 349.6,
+          "zIndex": 192,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -942,10 +919,10 @@
       {
         "value": "- cust_sub belum ada atribut no onu modem\n- cust ikut vlan berapa\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway\n\n- masukan kebutuhan untuk payment gateway juga",
         "ui": {
-          "active": true,
-          "left": 981.1999999999989,
-          "top": 206.59999999999832,
-          "zIndex": 174,
+          "active": false,
+          "left": 1017.9999999999981,
+          "top": 214.59999999999843,
+          "zIndex": 193,
           "width": 336,
           "height": 247
         },
@@ -964,8 +941,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 441.2095703125,
-          "y": 78.75,
+          "x": 443.6095703125,
+          "y": 89.95,
           "direction": "right"
         },
         "end": {
@@ -974,7 +951,7 @@
             "f9a3e87f-f42e-4373-872a-5e601d2c0cca"
           ],
           "x": 555.2,
-          "y": 178,
+          "y": 167.75,
           "direction": "left"
         },
         "constraintName": "fk_customer_profile_to_customer_subscribe",
@@ -990,8 +967,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 247.80478515625,
-          "y": 315,
+          "x": 250.20478515625,
+          "y": 326.2,
           "direction": "bottom"
         },
         "end": {
@@ -999,8 +976,8 @@
           "columnIds": [
             "dedeb4d3-73e1-4b13-b4c3-bbca1712e3b6"
           ],
-          "x": 194.24384765625,
-          "y": 380.8,
+          "x": 276.64384765625,
+          "y": 404.8,
           "direction": "top"
         },
         "constraintName": "fk_customer_profile_to_virtual_account",
@@ -1016,8 +993,8 @@
           "columnIds": [
             "0b20059b-e20e-474c-b058-bea55700fcad"
           ],
-          "x": 441.2095703125,
-          "y": 236.25,
+          "x": 443.6095703125,
+          "y": 247.45,
           "direction": "right"
         },
         "end": {
@@ -1025,8 +1002,8 @@
           "columnIds": [
             "d86cb0e9-bd25-4d37-90f7-5384fe942245"
           ],
-          "x": 548,
-          "y": 524.175,
+          "x": 581.6,
+          "y": 508.975,
           "direction": "left"
         },
         "constraintName": "fk_cus_profile_to_cust_pembayaran",
@@ -1042,8 +1019,8 @@
           "columnIds": [
             "95ff53ff-98a5-41b5-b264-fd9b842c8307"
           ],
-          "x": 383.6876953125,
-          "y": 446.05,
+          "x": 466.0876953125,
+          "y": 470.05,
           "direction": "right"
         },
         "end": {
@@ -1051,8 +1028,8 @@
           "columnIds": [
             "09ffc6c2-345a-45b3-a69c-644a75428475"
           ],
-          "x": 548,
-          "y": 417.925,
+          "x": 581.6,
+          "y": 402.725,
           "direction": "left"
         },
         "constraintName": "fk_virtual_account_to_cust_pembayaran",
