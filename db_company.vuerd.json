@@ -94,10 +94,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 216,
           "top": 31.2,
-          "zIndex": 28,
+          "zIndex": 3,
           "widthName": 70.6689453125,
           "widthComment": 76.43896484375
         },
@@ -205,7 +205,7 @@
           "active": false,
           "left": 92,
           "top": 210.4,
-          "zIndex": 1,
+          "zIndex": 16,
           "widthName": 60,
           "widthComment": 76.43896484375
         },
@@ -290,18 +290,185 @@
           "active": false,
           "left": 548,
           "top": 171.2,
-          "zIndex": 27,
+          "zIndex": 2,
           "widthName": 86.56982421875,
           "widthComment": 76.43896484375
         },
         "visible": true,
         "id": "dbd17345-d8af-47b7-9f80-5b38f38d6d28"
+      },
+      {
+        "name": "db_penanggung_jwb",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "edb609b6-ab8c-4aa8-b5ae-7526d32cd503"
+          },
+          {
+            "name": "nama",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "b4469500-52be-47ae-9759-a2fc31e6ba64"
+          },
+          {
+            "name": "alamat",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "e98c2ae6-8e49-4ded-835a-daf5c570f08c"
+          },
+          {
+            "name": "no_tlpn",
+            "comment": "",
+            "dataType": "NUMERIC",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 62.66455078125,
+              "widthDefault": 60
+            },
+            "id": "d4ba5607-9aeb-4160-9458-725120813e8a"
+          },
+          {
+            "name": "jk",
+            "comment": "",
+            "dataType": "ENUM",
+            "default": "L/K",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6d71b205-b566-4af1-b6f4-9c0b06a7c273"
+          },
+          {
+            "name": "email",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "879b6137-f785-4565-b422-ff67c149ecda"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 312,
+          "top": 485,
+          "zIndex": 68,
+          "widthName": 122.72607421875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2d7b67d5-c115-4556-a99a-df73da848989"
       }
     ],
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "- tabel cabang kurang atribut penanggung jawab",
+        "ui": {
+          "active": false,
+          "left": 1050,
+          "top": 188,
+          "zIndex": 7,
+          "width": 371,
+          "height": 301
+        },
+        "id": "ef778607-0277-453b-b617-62b3573c3581"
+      }
+    ]
   },
   "relationship": {
     "relationships": [

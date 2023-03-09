@@ -258,7 +258,7 @@
           "active": false,
           "left": 634.4,
           "top": 34.4,
-          "zIndex": 1,
+          "zIndex": 18,
           "widthName": 79.32080078125,
           "widthComment": 60
         },
@@ -389,7 +389,7 @@
           "active": false,
           "left": 90.4,
           "top": 75.2,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 116.17529296875,
           "widthComment": 60
         },
@@ -470,9 +470,9 @@
             "id": "3a1e594c-460e-4203-a2e8-23bf241dc1d7"
           },
           {
-            "name": "jumlah_sebaran_brosur",
+            "name": "jumlah_berat_brosur",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -485,9 +485,9 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 138.58251953125,
+              "widthName": 121.234375,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 60,
               "widthDefault": 60
             },
             "id": "745ab638-e26c-4319-a421-ac4f81af2ea8"
@@ -520,7 +520,7 @@
           "active": false,
           "left": 97.6,
           "top": 293.6,
-          "zIndex": 3,
+          "zIndex": 10,
           "widthName": 81.5107421875,
           "widthComment": 60
         },
@@ -648,10 +648,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 627.2,
           "top": 304.8,
-          "zIndex": 5,
+          "zIndex": 4,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -662,7 +662,20 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "- keteranga sebaran brosur",
+        "ui": {
+          "active": true,
+          "left": 1239,
+          "top": 109.8,
+          "zIndex": 19,
+          "width": 546,
+          "height": 251
+        },
+        "id": "0cc78f88-bf44-41e0-a7f6-de90e1d0663d"
+      }
+    ]
   },
   "relationship": {
     "relationships": [
