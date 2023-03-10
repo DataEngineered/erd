@@ -209,10 +209,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 565.4,
           "top": 60,
-          "zIndex": 47,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -341,9 +341,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 49.6,
-          "top": 88.8,
-          "zIndex": 45,
+          "left": 52.8,
+          "top": 96.8,
+          "zIndex": 4,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -361,7 +361,7 @@
           "active": false,
           "left": 737.2000000000007,
           "top": 336.39999999999935,
-          "zIndex": 5,
+          "zIndex": 1,
           "width": 317,
           "height": 192
         },
@@ -389,8 +389,8 @@
           "columnIds": [
             "94ab1abd-0b67-4ddf-81ac-6b811365d45c"
           ],
-          "x": 456.67763671875,
-          "y": 174.55,
+          "x": 459.87763671875,
+          "y": 182.55,
           "direction": "right"
         },
         "constraintName": "fk_program_to_pemk_program",

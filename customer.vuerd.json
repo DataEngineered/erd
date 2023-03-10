@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -4,
-    "scrollLeft": -1,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -642,7 +642,7 @@
           "active": false,
           "left": 552,
           "top": 16,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -702,7 +702,7 @@
           {
             "name": "id_channel",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -717,7 +717,7 @@
               "pfk": false,
               "widthName": 64.88623046875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "f0320104-1e3c-4832-9478-a2bc3ea9cbae"
@@ -727,7 +727,7 @@
           "active": false,
           "left": 70.2,
           "top": 441.8,
-          "zIndex": 89,
+          "zIndex": 8,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -904,7 +904,7 @@
           "active": false,
           "left": 583.2,
           "top": 362.4,
-          "zIndex": 5,
+          "zIndex": 3,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -912,13 +912,13 @@
         "id": "417808ea-c618-4a46-9202-97af73cc2953"
       },
       {
-        "name": "db_chanel",
+        "name": "chanel",
         "comment": "",
         "columns": [
           {
             "name": "id_channel",
             "comment": "",
-            "dataType": "",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -933,7 +933,7 @@
               "pfk": false,
               "widthName": 64.88623046875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "3a575296-d87d-4bb3-a0b4-b225f2fb2e88"
@@ -989,8 +989,8 @@
           "active": false,
           "left": 372,
           "top": 646,
-          "zIndex": 91,
-          "widthName": 61.998046875,
+          "zIndex": 11,
+          "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
@@ -1007,7 +1007,7 @@
           "active": false,
           "left": 1460.9999999999982,
           "top": 152.59999999999843,
-          "zIndex": 17,
+          "zIndex": 4,
           "width": 336,
           "height": 247
         },

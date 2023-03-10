@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollLeft": -16.8,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -316,7 +316,7 @@
             "id": "b9b1e165-3d7e-4fc4-b95d-35249e3581bb"
           },
           {
-            "name": "status_awal",
+            "name": "status",
             "comment": "",
             "dataType": "VARCHAR",
             "default": "",
@@ -331,35 +331,12 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 70.64990234375,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "fff99314-3691-440a-860b-ce5b7ea59a34"
-          },
-          {
-            "name": "status_updated",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 90.9052734375,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "0df47676-eae0-40d0-ac85-0ddade3b4e0b"
           },
           {
             "name": "tanggal_updated",
@@ -389,7 +366,7 @@
           "active": false,
           "left": 90.4,
           "top": 75.2,
-          "zIndex": 1,
+          "zIndex": 13,
           "widthName": 116.17529296875,
           "widthComment": 60
         },
@@ -493,29 +470,6 @@
             "id": "745ab638-e26c-4319-a421-ac4f81af2ea8"
           },
           {
-            "name": "tanggal",
-            "comment": "",
-            "dataType": "DATE",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "9564632f-b7b6-4dda-b8e6-83f8b1be703d"
-          },
-          {
             "name": "keterangan_sebar_brosur",
             "comment": "",
             "dataType": "TEXT",
@@ -537,13 +491,36 @@
               "widthDefault": 60
             },
             "id": "29e0ba88-bec2-46a3-b31e-c37d0b9e26c8"
+          },
+          {
+            "name": "tanggal_pengambilan",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "NOW()",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 126.3251953125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9564632f-b7b6-4dda-b8e6-83f8b1be703d"
           }
         ],
         "ui": {
-          "active": false,
-          "left": 97.6,
-          "top": 293.6,
-          "zIndex": 9,
+          "active": true,
+          "left": 98.4,
+          "top": 295.2,
+          "zIndex": 20,
           "widthName": 81.5107421875,
           "widthComment": 60
         },
@@ -672,9 +649,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 628,
-          "top": 320.8,
-          "zIndex": 5,
+          "left": 632,
+          "top": 318.4,
+          "zIndex": 14,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -692,7 +669,7 @@
           "active": false,
           "left": 1136,
           "top": 120.8,
-          "zIndex": 6,
+          "zIndex": 4,
           "width": 546,
           "height": 251
         },
@@ -721,7 +698,7 @@
             "b9b1e165-3d7e-4fc4-b95d-35249e3581bb"
           ],
           "x": 483.03037109375,
-          "y": 160.95,
+          "y": 150.7,
           "direction": "right"
         },
         "constraintName": "fk_sales_data_custumer_prospek_to_sales_monitoring_prospek",

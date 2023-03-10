@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1,
-    "scrollLeft": -52.199999999999996,
+    "scrollTop": -10.399999999999912,
+    "scrollLeft": -67.39999999999989,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -275,13 +275,59 @@
               "widthDefault": 60
             },
             "id": "93056321-3895-44a6-87f5-8bfda0191e24"
+          },
+          {
+            "name": "status_kepegawaian",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 120.52978515625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "4da2d579-737f-4bf5-b7e3-f307f6018b38"
+          },
+          {
+            "name": "durasi_kontrak",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.26806640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6b4dfa9c-40c7-4dd6-a105-6ca323d80e52"
           }
         ],
         "ui": {
-          "active": false,
-          "left": 67.2,
-          "top": 28.8,
-          "zIndex": 34,
+          "active": true,
+          "left": 76,
+          "top": 97.6,
+          "zIndex": 29,
           "widthName": 60,
           "widthComment": 60
         },
@@ -364,9 +410,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1000.2,
-          "top": 217.6,
-          "zIndex": 37,
+          "left": 972.2,
+          "top": 208,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -448,10 +494,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 571.6,
+          "active": false,
+          "left": 581.2,
           "top": 34.6,
-          "zIndex": 44,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -557,122 +603,14 @@
         ],
         "ui": {
           "active": false,
-          "left": 553.6,
-          "top": 445.6,
-          "zIndex": 40,
+          "left": 542.4,
+          "top": 372,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a"
-      },
-      {
-        "name": "pegawai_status",
-        "comment": "db_hr",
-        "columns": [
-          {
-            "name": "pegawai_status_id",
-            "comment": "",
-            "dataType": "BIGINT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 109.68798828125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "59982c26-e3b8-4683-bc3e-1ee0c130ec7b"
-          },
-          {
-            "name": "pegawai_id",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 67.7744140625,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
-          },
-          {
-            "name": "status_kepegawaian",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 120.52978515625,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "b36c4e9c-5f8c-49e4-80af-f81cf249c07f"
-          },
-          {
-            "name": "durasi_kontrak",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 87.26806640625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "3adb8bcb-25ec-42ea-a883-42ced1ad1a5a"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 70.4,
-          "top": 443.4,
-          "zIndex": 39,
-          "widthName": 92.33984375,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "379c6b53-5a01-42b3-9f1a-2d16044abf33"
       }
     ],
     "indexes": []
@@ -683,9 +621,9 @@
         "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?\n\n- relasi jabatan & divisi kebalik",
         "ui": {
           "active": false,
-          "left": 1037.1999999999962,
-          "top": 470.2000000000002,
-          "zIndex": 25,
+          "left": 1113.1999999999953,
+          "top": 579.0000000000003,
+          "zIndex": 2,
           "width": 376,
           "height": 227
         },
@@ -704,8 +642,8 @@
           "columnIds": [
             "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           ],
-          "x": 1000.2,
-          "y": 315.475,
+          "x": 972.2,
+          "y": 305.875,
           "direction": "left"
         },
         "end": {
@@ -713,39 +651,13 @@
           "columnIds": [
             "e84f2e59-ac28-46e2-a556-96340e8faee6"
           ],
-          "x": 907.1986328125,
-          "y": 521.1,
+          "x": 895.9986328125,
+          "y": 447.5,
           "direction": "right"
         },
         "constraintName": "fk_jabatan_to_gaji",
         "visible": true,
         "id": "ec3834ce-d6ad-46bd-bade-40346b9da186"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneOnly",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "58336313-4618-439b-9319-2626af150fab",
-          "columnIds": [
-            "52873ffd-7738-4d56-809c-4f02f605a0e8"
-          ],
-          "x": 274.693408203125,
-          "y": 302.8,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "379c6b53-5a01-42b3-9f1a-2d16044abf33",
-          "columnIds": [
-            "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
-          ],
-          "x": 276.465185546875,
-          "y": 443.4,
-          "direction": "top"
-        },
-        "constraintName": "fk_pegawai_to_pegawai_status",
-        "visible": true,
-        "id": "a090d203-aaa7-4ac2-8082-358a14ce9251"
       },
       {
         "identification": false,
@@ -756,7 +668,7 @@
           "columnIds": [
             "6fe778dd-72ad-42d1-b92b-90c18181feba"
           ],
-          "x": 933.844140625,
+          "x": 943.444140625,
           "y": 99.85,
           "direction": "right"
         },
@@ -765,8 +677,8 @@
           "columnIds": [
             "57c95045-c009-4172-9400-7f9e9d0b0089"
           ],
-          "x": 1000.2,
-          "y": 250.225,
+          "x": 972.2,
+          "y": 240.625,
           "direction": "left"
         },
         "constraintName": "fk_divisi_to_jabatan",
@@ -782,8 +694,8 @@
           "columnIds": [
             "52873ffd-7738-4d56-809c-4f02f605a0e8"
           ],
-          "x": 482.18681640625,
-          "y": 165.8,
+          "x": 511.24853515625,
+          "y": 255.1,
           "direction": "right"
         },
         "end": {
@@ -791,7 +703,7 @@
           "columnIds": [
             "75cb2213-19d6-43a6-aa82-d22af75c798f"
           ],
-          "x": 571.6,
+          "x": 581.2,
           "y": 99.85,
           "direction": "left"
         },
