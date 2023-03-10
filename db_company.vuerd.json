@@ -308,13 +308,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -467,7 +467,7 @@
           "active": true,
           "left": 495.2,
           "top": 338.4,
-          "zIndex": 9,
+          "zIndex": 11,
           "widthName": 101.0361328125,
           "widthComment": 76.43896484375
         },
