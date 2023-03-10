@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -51.199999999999996,
+    "scrollTop": -1,
+    "scrollLeft": -52.199999999999996,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -70,29 +70,6 @@
             "id": "52873ffd-7738-4d56-809c-4f02f605a0e8"
           },
           {
-            "name": "jabatan_id",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 61.998046875,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "dd0f3799-f2d5-4dfe-a147-f9c17b5471ae"
-          },
-          {
             "name": "cabang_id",
             "comment": "",
             "dataType": "VARCHAR",
@@ -139,29 +116,6 @@
             "id": "7b19bd0b-369d-4d00-b4e7-29e14f706395"
           },
           {
-            "name": "username",
-            "comment": "",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "7d6c00c9-c4f9-47f4-ada3-b94c76cac0b0"
-          },
-          {
             "name": "password",
             "comment": "",
             "dataType": "VARCHAR",
@@ -185,9 +139,9 @@
             "id": "44653ee8-27d2-4e61-8ac8-7f3175574943"
           },
           {
-            "name": "session",
+            "name": "remember_token",
             "comment": "",
-            "dataType": "BOOLEAN",
+            "dataType": "VARCHAR",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -200,9 +154,9 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 100.26806640625,
               "widthComment": 60,
-              "widthDataType": 64.8544921875,
+              "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
             "id": "eed075d3-7399-4c3b-803f-e035fc72ffd2"
@@ -327,7 +281,7 @@
           "active": false,
           "left": 67.2,
           "top": 28.8,
-          "zIndex": 114,
+          "zIndex": 34,
           "widthName": 60,
           "widthComment": 60
         },
@@ -382,7 +336,7 @@
               "widthDataType": 64.6005859375,
               "widthDefault": 60
             },
-            "id": "24639719-07b2-492d-9e50-39ac8b9a84ae"
+            "id": "57c95045-c009-4172-9400-7f9e9d0b0089"
           },
           {
             "name": "nama_jabatan",
@@ -410,9 +364,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 571.2,
-          "top": 29.6,
-          "zIndex": 111,
+          "left": 1000.2,
+          "top": 217.6,
+          "zIndex": 37,
           "widthName": 60,
           "widthComment": 60
         },
@@ -447,6 +401,29 @@
             "id": "6fe778dd-72ad-42d1-b92b-90c18181feba"
           },
           {
+            "name": "pegawai_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 67.7744140625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "75cb2213-19d6-43a6-aa82-d22af75c798f"
+          },
+          {
             "name": "nama_divisi",
             "comment": "",
             "dataType": "VARCHAR",
@@ -472,9 +449,9 @@
         ],
         "ui": {
           "active": true,
-          "left": 889.6,
-          "top": 217.6,
-          "zIndex": 116,
+          "left": 571.6,
+          "top": 34.6,
+          "zIndex": 44,
           "widthName": 60,
           "widthComment": 60
         },
@@ -580,9 +557,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 497.6,
-          "top": 329.6,
-          "zIndex": 115,
+          "left": 553.6,
+          "top": 445.6,
+          "zIndex": 40,
           "widthName": 60,
           "widthComment": 60
         },
@@ -688,9 +665,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 58.4,
-          "top": 438.4,
-          "zIndex": 110,
+          "left": 70.4,
+          "top": 443.4,
+          "zIndex": 39,
           "widthName": 92.33984375,
           "widthComment": 60
         },
@@ -703,12 +680,12 @@
   "memo": {
     "memos": [
       {
-        "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?",
+        "value": "kurang table :\n- jabatan\n- divisi\n\natribut\n- kan ada login atribut password nya di mana ya ?\n\n- relasi jabatan & divisi kebalik",
         "ui": {
           "active": false,
-          "left": 890.1999999999962,
-          "top": 375.2000000000002,
-          "zIndex": 63,
+          "left": 1037.1999999999962,
+          "top": 470.2000000000002,
+          "zIndex": 25,
           "width": 376,
           "height": 227
         },
@@ -727,18 +704,18 @@
           "columnIds": [
             "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           ],
-          "x": 853.1996337890625,
-          "y": 160.1,
-          "direction": "bottom"
+          "x": 1000.2,
+          "y": 315.475,
+          "direction": "left"
         },
         "end": {
           "tableId": "b26af102-b7c0-4d3d-9428-48d6e3c8ff7a",
           "columnIds": [
             "e84f2e59-ac28-46e2-a556-96340e8faee6"
           ],
-          "x": 674.39931640625,
-          "y": 329.6,
-          "direction": "top"
+          "x": 907.1986328125,
+          "y": 521.1,
+          "direction": "right"
         },
         "constraintName": "fk_jabatan_to_gaji",
         "visible": true,
@@ -749,52 +726,52 @@
         "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
+          "tableId": "58336313-4618-439b-9319-2626af150fab",
+          "columnIds": [
+            "52873ffd-7738-4d56-809c-4f02f605a0e8"
+          ],
+          "x": 274.693408203125,
+          "y": 302.8,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "379c6b53-5a01-42b3-9f1a-2d16044abf33",
+          "columnIds": [
+            "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
+          ],
+          "x": 276.465185546875,
+          "y": 443.4,
+          "direction": "top"
+        },
+        "constraintName": "fk_pegawai_to_pegawai_status",
+        "visible": true,
+        "id": "a090d203-aaa7-4ac2-8082-358a14ce9251"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
           "tableId": "d0934092-b6ce-4561-acf8-873df7efbc65",
           "columnIds": [
             "6fe778dd-72ad-42d1-b92b-90c18181feba"
           ],
-          "x": 889.6,
-          "y": 272.6,
-          "direction": "left"
+          "x": 933.844140625,
+          "y": 99.85,
+          "direction": "right"
         },
         "end": {
           "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
           "columnIds": [
-            "24639719-07b2-492d-9e50-39ac8b9a84ae"
+            "57c95045-c009-4172-9400-7f9e9d0b0089"
           ],
-          "x": 665.1998779296875,
-          "y": 160.1,
-          "direction": "bottom"
+          "x": 1000.2,
+          "y": 250.225,
+          "direction": "left"
         },
         "constraintName": "fk_divisi_to_jabatan",
         "visible": true,
-        "id": "cfb6643a-ae84-4163-8121-aea4dbe256ef"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneOnly",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "c66bbba0-317e-4887-a30d-6b29a2e44214",
-          "columnIds": [
-            "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
-          ],
-          "x": 571.2,
-          "y": 94.85,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "58336313-4618-439b-9319-2626af150fab",
-          "columnIds": [
-            "dd0f3799-f2d5-4dfe-a147-f9c17b5471ae"
-          ],
-          "x": 462.68046875,
-          "y": 186.3,
-          "direction": "right"
-        },
-        "constraintName": "fk_jabatan_to_pegawai",
-        "visible": true,
-        "id": "bfe034bb-d74a-45a0-8025-437c06f3ec72"
+        "id": "7b25099f-952a-4314-98ce-9a8303b8c49d"
       },
       {
         "identification": false,
@@ -805,22 +782,22 @@
           "columnIds": [
             "52873ffd-7738-4d56-809c-4f02f605a0e8"
           ],
-          "x": 264.940234375,
-          "y": 343.8,
-          "direction": "bottom"
+          "x": 482.18681640625,
+          "y": 165.8,
+          "direction": "right"
         },
         "end": {
-          "tableId": "379c6b53-5a01-42b3-9f1a-2d16044abf33",
+          "tableId": "d0934092-b6ce-4561-acf8-873df7efbc65",
           "columnIds": [
-            "ca04bf53-42e0-43a7-9d36-e45c7f29dff3"
+            "75cb2213-19d6-43a6-aa82-d22af75c798f"
           ],
-          "x": 264.465185546875,
-          "y": 438.4,
-          "direction": "top"
+          "x": 571.6,
+          "y": 99.85,
+          "direction": "left"
         },
-        "constraintName": "fk_pegawai_to_pegawai_status",
+        "constraintName": "fk_pegawai_to_divisi",
         "visible": true,
-        "id": "a090d203-aaa7-4ac2-8082-358a14ce9251"
+        "id": "fec3aa41-9790-4e57-84c6-123081b44bd5"
       }
     ]
   }

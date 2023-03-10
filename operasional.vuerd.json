@@ -166,7 +166,7 @@
           "active": false,
           "left": 92.8,
           "top": 18.4,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 103.18798828125,
           "widthComment": 90.9052734375
         },
@@ -297,7 +297,7 @@
           "active": false,
           "left": 617.2,
           "top": 19.8,
-          "zIndex": 5,
+          "zIndex": 3,
           "widthName": 103.9052734375,
           "widthComment": 90.9052734375
         },
@@ -517,10 +517,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 106.4,
           "top": 205.6,
-          "zIndex": 7,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 90.9052734375
         },
@@ -697,7 +697,7 @@
           "active": false,
           "left": 621.6,
           "top": 236,
-          "zIndex": 6,
+          "zIndex": 4,
           "widthName": 82.21533203125,
           "widthComment": 90.9052734375
         },
@@ -712,10 +712,10 @@
       {
         "value": "- table arsip\n- table distribusi\n- ",
         "ui": {
-          "active": false,
-          "left": 983.1999999999992,
-          "top": 295.7999999999991,
-          "zIndex": 2,
+          "active": true,
+          "left": 1076.1999999999994,
+          "top": 252.7999999999991,
+          "zIndex": 6,
           "width": 315,
           "height": 192
         },

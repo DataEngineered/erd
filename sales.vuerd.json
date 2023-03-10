@@ -258,7 +258,7 @@
           "active": false,
           "left": 634.4,
           "top": 34.4,
-          "zIndex": 4,
+          "zIndex": 2,
           "widthName": 79.32080078125,
           "widthComment": 60
         },
@@ -543,7 +543,7 @@
           "active": false,
           "left": 97.6,
           "top": 293.6,
-          "zIndex": 11,
+          "zIndex": 9,
           "widthName": 81.5107421875,
           "widthComment": 60
         },
@@ -671,10 +671,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 628,
           "top": 320.8,
-          "zIndex": 12,
+          "zIndex": 5,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -690,9 +690,9 @@
         "value": "- keteranga sebaran brosur",
         "ui": {
           "active": false,
-          "left": 1239,
-          "top": 109.8,
-          "zIndex": 5,
+          "left": 1136,
+          "top": 120.8,
+          "zIndex": 6,
           "width": 546,
           "height": 251
         },

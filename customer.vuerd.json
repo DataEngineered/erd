@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -38.39999999999996,
-    "scrollLeft": -154.40000000000003,
+    "scrollTop": -4,
+    "scrollLeft": -1,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -327,7 +327,7 @@
           "active": false,
           "left": 56.8,
           "top": 11.2,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 64.8671875,
           "widthComment": 77.14990234375
         },
@@ -642,7 +642,7 @@
           "active": false,
           "left": 552,
           "top": 16,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -700,34 +700,34 @@
             "id": "dedeb4d3-73e1-4b13-b4c3-bbca1712e3b6"
           },
           {
-            "name": "nama_channel",
+            "name": "id_channel",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": false,
+              "fk": true,
               "pfk": false,
-              "widthName": 87.287109375,
+              "widthName": 64.88623046875,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "50fbc7e2-6744-48f9-b616-b20815185a0c"
+            "id": "f0320104-1e3c-4832-9478-a2bc3ea9cbae"
           }
         ],
         "ui": {
           "active": false,
-          "left": 87.2,
-          "top": 404.8,
-          "zIndex": 3,
+          "left": 70.2,
+          "top": 441.8,
+          "zIndex": 89,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -901,15 +901,100 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 583.2,
           "top": 362.4,
-          "zIndex": 6,
+          "zIndex": 5,
           "widthName": 105.33984375,
           "widthComment": 60
         },
         "visible": true,
         "id": "417808ea-c618-4a46-9202-97af73cc2953"
+      },
+      {
+        "name": "db_chanel",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_channel",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 64.88623046875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3a575296-d87d-4bb3-a0b4-b225f2fb2e88"
+          },
+          {
+            "name": "nama_channel",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.287109375,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a47fffb4-93ca-4d2b-8323-4467edf3e7cc"
+          },
+          {
+            "name": "biaya_channel",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 85.84619140625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "cdf5cb7f-dfe8-474d-b85d-a0df8de99d68"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 372,
+          "top": 646,
+          "zIndex": 91,
+          "widthName": 61.998046875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c295636c-96e0-401b-a025-1380ea5556ed"
       }
     ],
     "indexes": []
@@ -917,12 +1002,12 @@
   "memo": {
     "memos": [
       {
-        "value": "- cust_sub belum ada atribut no onu modem\n- cust ikut vlan berapa\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway\n\n- masukan kebutuhan untuk payment gateway juga",
+        "value": "- cust_sub belum ada atribut no onu modem#\n- cust ikut vlan berapa#\n- table VA, kan untuk customer baru yang sudah terintegrasi payment gateway#\n\n- masukan kebutuhan untuk payment gateway juga#",
         "ui": {
           "active": false,
-          "left": 1017.9999999999981,
-          "top": 214.59999999999843,
-          "zIndex": 5,
+          "left": 1460.9999999999982,
+          "top": 152.59999999999843,
+          "zIndex": 17,
           "width": 336,
           "height": 247
         },
@@ -976,8 +1061,8 @@
           "columnIds": [
             "dedeb4d3-73e1-4b13-b4c3-bbca1712e3b6"
           ],
-          "x": 276.64384765625,
-          "y": 404.8,
+          "x": 252.404345703125,
+          "y": 441.8,
           "direction": "top"
         },
         "constraintName": "fk_customer_profile_to_virtual_account",
@@ -1019,8 +1104,8 @@
           "columnIds": [
             "95ff53ff-98a5-41b5-b264-fd9b842c8307"
           ],
-          "x": 466.0876953125,
-          "y": 470.05,
+          "x": 434.60869140625,
+          "y": 507.05,
           "direction": "right"
         },
         "end": {
@@ -1035,6 +1120,32 @@
         "constraintName": "fk_virtual_account_to_cust_pembayaran",
         "visible": true,
         "id": "fa317b85-404e-4940-a6df-211ffd123f44"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "c295636c-96e0-401b-a025-1380ea5556ed",
+          "columnIds": [
+            "3a575296-d87d-4bb3-a0b4-b225f2fb2e88"
+          ],
+          "x": 372,
+          "y": 711.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "0c944279-1518-4425-bdf8-27e52b3713fa",
+          "columnIds": [
+            "f0320104-1e3c-4832-9478-a2bc3ea9cbae"
+          ],
+          "x": 252.404345703125,
+          "y": 572.3,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_db_chanel_to_virtual_account",
+        "visible": true,
+        "id": "5cf956c9-f834-4282-9199-998f3300b11b"
       }
     ]
   }

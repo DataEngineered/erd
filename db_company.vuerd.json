@@ -94,10 +94,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 496.8,
           "top": 28.8,
-          "zIndex": 31,
+          "zIndex": 5,
           "widthName": 70.6689453125,
           "widthComment": 76.43896484375
         },
@@ -205,7 +205,7 @@
           "active": false,
           "left": 5.6,
           "top": 149.6,
-          "zIndex": 27,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 76.43896484375
         },
@@ -290,7 +290,7 @@
           "active": false,
           "left": 608,
           "top": 168,
-          "zIndex": 26,
+          "zIndex": 2,
           "widthName": 86.56982421875,
           "widthComment": 76.43896484375
         },
@@ -464,10 +464,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 495.2,
-          "top": 315.4,
-          "zIndex": 30,
+          "top": 338.4,
+          "zIndex": 9,
           "widthName": 101.0361328125,
           "widthComment": 76.43896484375
         },
@@ -483,9 +483,9 @@
         "value": "- tabel cabang kurang atribut penanggung jawab",
         "ui": {
           "active": false,
-          "left": 914.0000000000019,
-          "top": 347.19999999999993,
-          "zIndex": 25,
+          "left": 1267.0000000000018,
+          "top": 91.19999999999993,
+          "zIndex": 8,
           "width": 371,
           "height": 301
         },
@@ -540,7 +540,7 @@
             "2861ab0c-5450-4f12-b609-d14b2341e2a0"
           ],
           "x": 495.2,
-          "y": 421.65,
+          "y": 444.65,
           "direction": "left"
         },
         "constraintName": "fk_cabang_to_penanggung_jwb",
