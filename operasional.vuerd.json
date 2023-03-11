@@ -49,7 +49,7 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "BIGINT",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -72,7 +72,7 @@
           {
             "name": "cust_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "e39084dc-29c2-4eac-b465-168def4a12b0"
@@ -95,7 +95,7 @@
           {
             "name": "sales_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -110,7 +110,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "1b2e15d9-9064-407a-aef9-6fdc0f2bd02e"
@@ -118,7 +118,7 @@
           {
             "name": "status",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(50)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "f5da8e70-7d92-4e6d-a2e6-0d68aa5ddc32"
@@ -166,7 +166,7 @@
           "active": false,
           "left": 127.2,
           "top": 29.6,
-          "zIndex": 9,
+          "zIndex": 38,
           "widthName": 103.18798828125,
           "widthComment": 90.9052734375
         },
@@ -180,7 +180,7 @@
           {
             "name": "id",
             "comment": "",
-            "dataType": "BIGINT",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -297,7 +297,7 @@
           "active": false,
           "left": 649.2,
           "top": 27,
-          "zIndex": 8,
+          "zIndex": 41,
           "widthName": 103.9052734375,
           "widthComment": 90.9052734375
         },
@@ -334,7 +334,7 @@
           {
             "name": "jdw_id",
             "comment": "",
-            "dataType": "BIGINT",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -357,7 +357,7 @@
           {
             "name": "id_odp",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -372,7 +372,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "7cb5794c-55eb-4555-85bb-bf9da7bb79da"
@@ -380,7 +380,7 @@
           {
             "name": "cust_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -395,7 +395,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "a975c416-5b9b-47b0-a4ef-94188057f0d3"
@@ -403,7 +403,7 @@
           {
             "name": "sales_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -418,7 +418,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "197c8d0d-d403-43d6-8a0e-6a6293b613e1"
@@ -426,7 +426,7 @@
           {
             "name": "teknisi_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -441,7 +441,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "5c0426c7-6f8b-4f2d-8424-580356e44d55"
@@ -449,7 +449,7 @@
           {
             "name": "cust_subs_id",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -464,7 +464,7 @@
               "pfk": false,
               "widthName": 77.8798828125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "63053a18-3e41-4ce0-824a-d8c08a6e8923"
@@ -495,7 +495,7 @@
           {
             "name": "redaman_cust",
             "comment": "",
-            "dataType": "DOUBLE",
+            "dataType": "DOUBLE(20)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -510,7 +510,7 @@
               "pfk": false,
               "widthName": 84.3798828125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 78.578125,
               "widthDefault": 60
             },
             "id": "ac50b2e2-fd96-4379-bf19-7fc59df2216c"
@@ -520,7 +520,7 @@
           "active": false,
           "left": 132,
           "top": 232,
-          "zIndex": 7,
+          "zIndex": 35,
           "widthName": 60,
           "widthComment": 90.9052734375
         },
@@ -534,7 +534,7 @@
           {
             "name": "id_odp",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -549,7 +549,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "08ae74de-d431-411e-b4b1-1007e1c3463c"
@@ -557,7 +557,7 @@
           {
             "name": "kode_odp",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -572,7 +572,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "76955c50-c340-4b96-8452-b1e20471d321"
@@ -580,7 +580,7 @@
           {
             "name": "kode_port",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -595,7 +595,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "22020dd8-2ce5-4c86-9533-143d10768a91"
@@ -603,7 +603,7 @@
           {
             "name": "area",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -618,7 +618,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "8a7e3ede-2ef4-4587-b038-7f6c0b4a6faa"
@@ -626,7 +626,7 @@
           {
             "name": "koordinat",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(255)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -641,7 +641,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "8c75e71a-0de4-49af-9f77-b3e8e015b4a8"
@@ -649,7 +649,7 @@
           {
             "name": "foto_jauh",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(255)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -664,7 +664,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "7c7f9cff-3898-48c8-b6b8-6c8e3b8b48d6"
@@ -672,7 +672,7 @@
           {
             "name": "foto_dekat",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(255)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -687,17 +687,17 @@
               "pfk": false,
               "widthName": 62.71533203125,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
             "id": "728c9c7e-0cf5-4c28-a9a6-10b0b8d6a7dc"
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 658.4,
           "top": 241.6,
-          "zIndex": 10,
+          "zIndex": 33,
           "widthName": 82.21533203125,
           "widthComment": 90.9052734375
         },
@@ -715,7 +715,7 @@
           "active": false,
           "left": 1076.1999999999994,
           "top": 252.7999999999991,
-          "zIndex": 5,
+          "zIndex": 1,
           "width": 315,
           "height": 192
         },
@@ -743,7 +743,7 @@
           "columnIds": [
             "7333efce-0d79-4e54-ba35-de5b0fad88f5"
           ],
-          "x": 507.98046875,
+          "x": 531.0986328125,
           "y": 422.125,
           "direction": "right"
         },
@@ -769,7 +769,7 @@
           "columnIds": [
             "7cb5794c-55eb-4555-85bb-bf9da7bb79da"
           ],
-          "x": 507.98046875,
+          "x": 531.0986328125,
           "y": 295.375,
           "direction": "right"
         },

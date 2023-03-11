@@ -212,7 +212,7 @@
           "active": false,
           "left": 565.4,
           "top": 60,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -343,7 +343,7 @@
           "active": false,
           "left": 52.8,
           "top": 96.8,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -354,20 +354,7 @@
     "indexes": []
   },
   "memo": {
-    "memos": [
-      {
-        "value": "atribut :\n- promo berlaku untuk branch / area mana\n- tanggal di mulai promo & expired",
-        "ui": {
-          "active": false,
-          "left": 737.2000000000007,
-          "top": 336.39999999999935,
-          "zIndex": 1,
-          "width": 317,
-          "height": 192
-        },
-        "id": "676d9b75-45cb-42eb-904f-9790c17ed456"
-      }
-    ]
+    "memos": []
   },
   "relationship": {
     "relationships": [
