@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -211.99999999999872,
-    "scrollLeft": -224.79999999999913,
+    "scrollTop": -169.59999999999866,
+    "scrollLeft": -344.7999999999993,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -187,7 +187,7 @@
           {
             "name": "status",
             "comment": "",
-            "dataType": "ENUM",
+            "dataType": "ENUM('Q&A', 'Un-cover', 'Closing')",
             "default": "null",
             "option": {
               "autoIncrement": false,
@@ -202,7 +202,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 201.81787109375,
               "widthDefault": 60
             },
             "id": "f8fd9b7b-ef93-4375-8009-10aa84e481be"
@@ -210,7 +210,7 @@
           {
             "name": "metode_ketemu",
             "comment": "",
-            "dataType": "ENUM",
+            "dataType": "ENUM('Chat','Ketemu')",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -225,7 +225,7 @@
               "pfk": false,
               "widthName": 95.2216796875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 134.73583984375,
               "widthDefault": 60
             },
             "id": "510395c8-3068-4de9-af50-409eec6a50dd"
@@ -233,9 +233,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 75.4446,
-          "top": 152.8893,
-          "zIndex": 158,
+          "left": 63.1119,
+          "top": 161.7783,
+          "zIndex": 196,
           "widthName": 60,
           "widthComment": 78.59716796875
         },
@@ -291,29 +291,6 @@
               "widthDefault": 60
             },
             "id": "cd6829cd-823f-4be1-ad36-badfa9a29f89"
-          },
-          {
-            "name": "sales_id",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "6181773a-8805-4b33-b1d3-6fdfc8e382d6"
           },
           {
             "name": "promo_id",
@@ -754,10 +731,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 643.6665,
-          "top": 140.1116,
-          "zIndex": 157,
+          "active": true,
+          "left": 753.0003,
+          "top": 154.334,
+          "zIndex": 200,
           "widthName": 60,
           "widthComment": 84.37353515625
         },
@@ -971,9 +948,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 125.7771,
-          "top": 431.9991,
-          "zIndex": 155,
+          "left": 169.332,
+          "top": 439.1103,
+          "zIndex": 197,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1079,9 +1056,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1154.4165,
-          "top": 362.1382,
-          "zIndex": 154,
+          "left": 1334.8611,
+          "top": 416.3611,
+          "zIndex": 192,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1097,9 +1074,9 @@
         "value": "Terdapat 3 phase :\n1. ketemu\n2. interaksi\n3. clossing",
         "ui": {
           "active": false,
-          "left": 1212.1111111111109,
-          "top": 106.66666666666667,
-          "zIndex": 4,
+          "left": 1267.222222222223,
+          "top": 98.6666666666667,
+          "zIndex": 199,
           "width": 283,
           "height": 148
         },
@@ -1118,8 +1095,8 @@
           "columnIds": [
             "34fb975b-e807-4113-8f3e-b4f186b397ac"
           ],
-          "x": 545.3850296875,
-          "y": 269.3893,
+          "x": 647.15145078125,
+          "y": 278.2783,
           "direction": "right"
         },
         "end": {
@@ -1127,8 +1104,8 @@
           "columnIds": [
             "cd6829cd-823f-4be1-ad36-badfa9a29f89"
           ],
-          "x": 643.6665,
-          "y": 270.1116,
+          "x": 753.0003,
+          "y": 279.209,
           "direction": "left"
         },
         "constraintName": "fk__to_",
@@ -1144,8 +1121,8 @@
           "columnIds": [
             "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
-          "x": 643.6665,
-          "y": 530.1116,
+          "x": 753.0003,
+          "y": 528.9590000000001,
           "direction": "left"
         },
         "end": {
@@ -1153,8 +1130,8 @@
           "columnIds": [
             "8e3ca9be-4e85-4c1e-8471-2a4cd8963e6b"
           ],
-          "x": 479.82788125,
-          "y": 497.2491,
+          "x": 523.38278125,
+          "y": 504.3603,
           "direction": "right"
         },
         "constraintName": "fk__to_",
