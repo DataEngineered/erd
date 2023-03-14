@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -252.80000000000123,
-    "scrollLeft": -173.59999999999854,
+    "scrollTop": -95.19999999999999,
+    "scrollLeft": -35.99999999999854,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -187,7 +187,7 @@
           {
             "name": "status",
             "comment": "",
-            "dataType": "ENUM('Q&A', 'Un-cover', 'Closing')",
+            "dataType": "ENUM('Q&A', 'S', 'Un-cover', 'Closing')",
             "default": "null",
             "option": {
               "autoIncrement": false,
@@ -202,7 +202,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 201.81787109375,
+              "widthDataType": 222.67626953125,
               "widthDefault": 60
             },
             "id": "f8fd9b7b-ef93-4375-8009-10aa84e481be"
@@ -232,10 +232,10 @@
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 81.4231,
           "top": 122.8446,
-          "zIndex": 44,
+          "zIndex": 46,
           "widthName": 101.00439453125,
           "widthComment": 78.59716796875
         },
@@ -1845,7 +1845,7 @@
           "columnIds": [
             "c6f37dac-00ce-415a-a221-f9efd90c99b2"
           ],
-          "x": 605.46265078125,
+          "x": 626.32104921875,
           "y": 181.0946,
           "direction": "right"
         },
@@ -1871,7 +1871,7 @@
           "columnIds": [
             "c6f37dac-00ce-415a-a221-f9efd90c99b2"
           ],
-          "x": 605.46265078125,
+          "x": 626.32104921875,
           "y": 297.5946,
           "direction": "right"
         },
