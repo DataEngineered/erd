@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -132.59999999999866,
-    "scrollLeft": -104.79999999999927,
+    "scrollTop": -24.59999999999866,
+    "scrollLeft": -48.79999999999927,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -1170,10 +1170,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 640.4162,
-          "top": 891.9166,
-          "zIndex": 118,
+          "active": true,
+          "left": 753.7492,
+          "top": 1171.9165,
+          "zIndex": 122,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1188,7 +1188,7 @@
       {
         "value": "Terdapat 3 phase :\n1. ketemu\n2. interaksi\n3. clossing",
         "ui": {
-          "active": true,
+          "active": false,
           "left": 1300.5555555555566,
           "top": 403.1111111111111,
           "zIndex": 121,
