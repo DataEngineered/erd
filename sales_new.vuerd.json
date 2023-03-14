@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -169.59999999999866,
-    "scrollLeft": -344.7999999999993,
+    "scrollTop": -132.59999999999866,
+    "scrollLeft": -104.79999999999927,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -235,7 +235,7 @@
           "active": false,
           "left": 63.1119,
           "top": 161.7783,
-          "zIndex": 196,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 78.59716796875
         },
@@ -340,7 +340,7 @@
           },
           {
             "name": "nik",
-            "comment": "",
+            "comment": "Sesuaikan KTP",
             "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
@@ -355,7 +355,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 91.603515625,
               "widthDataType": 87.71875,
               "widthDefault": 60
             },
@@ -386,7 +386,7 @@
           },
           {
             "name": "jk",
-            "comment": "",
+            "comment": "Sesuaikan KTP",
             "dataType": "ENUM('L'/'P')",
             "default": "",
             "option": {
@@ -401,7 +401,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 91.603515625,
               "widthDataType": 78.375,
               "widthDefault": 60
             },
@@ -432,7 +432,7 @@
           },
           {
             "name": "kecamatan",
-            "comment": "",
+            "comment": "Sesuaikan KTP",
             "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
@@ -447,15 +447,38 @@
               "fk": false,
               "pfk": false,
               "widthName": 65.5908203125,
-              "widthComment": 60,
+              "widthComment": 91.603515625,
               "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "45071b7d-c44b-419d-bbec-2725ade42a74"
           },
           {
+            "name": "kota_kabupaten",
+            "comment": "Sesuaikan KTP",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 94.5234375,
+              "widthComment": 91.603515625,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "1c3e9e94-35c5-46fe-9aa4-ca6b7ec84dbf"
+          },
+          {
             "name": "provinsi",
-            "comment": "",
+            "comment": "Sesuaikan KTP",
             "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
@@ -470,7 +493,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 60,
+              "widthComment": 91.603515625,
               "widthDataType": 87.71875,
               "widthDefault": 60
             },
@@ -478,7 +501,7 @@
           },
           {
             "name": "tipe_customer",
-            "comment": "",
+            "comment": "Perorangan/Susinnes",
             "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
@@ -493,7 +516,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 83.64990234375,
-              "widthComment": 60,
+              "widthComment": 120,
               "widthDataType": 87.71875,
               "widthDefault": 60
             },
@@ -548,7 +571,7 @@
           {
             "name": "koordinat",
             "comment": "",
-            "dataType": "VARCHAR(100)",
+            "dataType": "FLOAT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -563,7 +586,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 94.94873046875,
+              "widthDataType": 60,
               "widthDefault": 60
             },
             "id": "d5e2a87a-9d48-405c-bdd1-a0f0f85c295f"
@@ -590,6 +613,29 @@
               "widthDefault": 60
             },
             "id": "75b68f51-d7ca-4b0b-a2c6-caf7295a09fa"
+          },
+          {
+            "name": "jarak",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4dd65136-61bd-4f06-93fd-50f3f3741d6e"
           },
           {
             "name": "tgl_request",
@@ -728,13 +774,36 @@
               "widthDefault": 60
             },
             "id": "c1b44853-de80-46f2-b0af-93d966548988"
+          },
+          {
+            "name": "survey_by",
+            "comment": "",
+            "dataType": "ENUM",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.2490234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c2a437ff-382d-457f-8e00-cb3df2d5e80a"
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 753.0003,
           "top": 154.334,
-          "zIndex": 200,
+          "zIndex": 52,
           "widthName": 60,
           "widthComment": 84.37353515625
         },
@@ -865,7 +934,7 @@
           "active": false,
           "left": 76.3334,
           "top": 610.7772,
-          "zIndex": 178,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60
         },
@@ -950,7 +1019,7 @@
           "active": false,
           "left": 169.332,
           "top": 439.1103,
-          "zIndex": 197,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1056,9 +1125,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1334.8611,
-          "top": 416.3611,
-          "zIndex": 192,
+          "left": 88.194,
+          "top": 857.4722,
+          "zIndex": 53,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1076,7 +1145,7 @@
           "active": false,
           "left": 1267.222222222223,
           "top": 98.6666666666667,
-          "zIndex": 199,
+          "zIndex": 5,
           "width": 283,
           "height": 148
         },
@@ -1105,7 +1174,7 @@
             "cd6829cd-823f-4be1-ad36-badfa9a29f89"
           ],
           "x": 753.0003,
-          "y": 279.209,
+          "y": 294.584,
           "direction": "left"
         },
         "constraintName": "fk__to_",
@@ -1122,7 +1191,7 @@
             "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
           "x": 753.0003,
-          "y": 528.9590000000001,
+          "y": 575.0840000000001,
           "direction": "left"
         },
         "end": {
