@@ -339,6 +339,29 @@
             "id": "65ee6461-c5b3-4e7a-8fb5-66f51a96fa28"
           },
           {
+            "name": "sales_id",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "8ac02e2c-c374-45be-9cbc-e80f56cb98fa"
+          },
+          {
             "name": "nik",
             "comment": "Sesuaikan KTP",
             "dataType": "VARCHAR(30)",
@@ -523,6 +546,29 @@
             "id": "309712c5-2855-4d54-9ff8-e32e11435c0e"
           },
           {
+            "name": "no_tlp",
+            "comment": "",
+            "dataType": "CHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.95361328125,
+              "widthDefault": 60
+            },
+            "id": "4320b33d-7420-42ce-812f-04caf29b59f0"
+          },
+          {
             "name": "almt_terpasang",
             "comment": "Alamat yg nanti terpasang internet",
             "dataType": "VARCHAR(50)",
@@ -617,7 +663,7 @@
           {
             "name": "jarak",
             "comment": "",
-            "dataType": "",
+            "dataType": "INT",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -803,7 +849,7 @@
           "active": false,
           "left": 753.0003,
           "top": 154.334,
-          "zIndex": 52,
+          "zIndex": 113,
           "widthName": 60,
           "widthComment": 84.37353515625
         },
@@ -932,9 +978,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 76.3334,
-          "top": 610.7772,
-          "zIndex": 1,
+          "left": 86.3336,
+          "top": 865.2214,
+          "zIndex": 119,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1017,9 +1063,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 169.332,
-          "top": 439.1103,
-          "zIndex": 4,
+          "left": 149.3326,
+          "top": 482.4438,
+          "zIndex": 114,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1125,9 +1171,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 88.194,
-          "top": 857.4722,
-          "zIndex": 53,
+          "left": 640.4162,
+          "top": 891.9166,
+          "zIndex": 118,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1142,10 +1188,10 @@
       {
         "value": "Terdapat 3 phase :\n1. ketemu\n2. interaksi\n3. clossing",
         "ui": {
-          "active": false,
-          "left": 1267.222222222223,
-          "top": 98.6666666666667,
-          "zIndex": 5,
+          "active": true,
+          "left": 1300.5555555555566,
+          "top": 403.1111111111111,
+          "zIndex": 121,
           "width": 283,
           "height": 148
         },
@@ -1174,7 +1220,7 @@
             "cd6829cd-823f-4be1-ad36-badfa9a29f89"
           ],
           "x": 753.0003,
-          "y": 294.584,
+          "y": 304.834,
           "direction": "left"
         },
         "constraintName": "fk__to_",
@@ -1191,7 +1237,7 @@
             "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
           "x": 753.0003,
-          "y": 575.0840000000001,
+          "y": 605.8340000000001,
           "direction": "left"
         },
         "end": {
@@ -1199,8 +1245,8 @@
           "columnIds": [
             "8e3ca9be-4e85-4c1e-8471-2a4cd8963e6b"
           ],
-          "x": 523.38278125,
-          "y": 504.3603,
+          "x": 503.38338125,
+          "y": 547.6938,
           "direction": "right"
         },
         "constraintName": "fk__to_",
