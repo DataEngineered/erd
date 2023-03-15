@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -378,
-    "scrollLeft": -1,
-    "zoomLevel": 0.9,
+    "scrollTop": -223.99999999999972,
+    "scrollLeft": -715.1999999999994,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -235,7 +235,7 @@
           "active": false,
           "left": 69.112,
           "top": 120.667,
-          "zIndex": 19,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -755,7 +755,7 @@
           {
             "name": "survey_by",
             "comment": "",
-            "dataType": "VARCHAR",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -770,7 +770,7 @@
               "pfk": false,
               "widthName": 61.2490234375,
               "widthComment": 60,
-              "widthDataType": 64.6005859375,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "fe0f0905-fd37-48eb-8a11-48b47da2b3ff"
@@ -780,7 +780,7 @@
           "active": false,
           "left": 742.5552,
           "top": 140.3347,
-          "zIndex": 64,
+          "zIndex": 96,
           "widthName": 73.5380859375,
           "widthComment": 60
         },
@@ -911,7 +911,7 @@
           "active": false,
           "left": 153.6668,
           "top": 595.6659,
-          "zIndex": 50,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -994,9 +994,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 266.2217,
-          "top": 426.6657,
-          "zIndex": 45,
+          "left": 187.9985,
+          "top": 394.6653,
+          "zIndex": 10,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1004,7 +1004,7 @@
         "id": "2f130230-de2c-4052-845c-f5bae16f54f6"
       },
       {
-        "name": "p_promo",
+        "name": "log",
         "comment": "",
         "columns": [
           {
@@ -1102,667 +1102,14 @@
         ],
         "ui": {
           "active": false,
-          "left": 537.084,
-          "top": 928.5852,
-          "zIndex": 51,
+          "left": 920.9948,
+          "top": 729.74,
+          "zIndex": 94,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "e4d5140b-4dd6-4c88-815c-65c65d5d1014"
-      },
-      {
-        "name": "verif_identitas",
-        "comment": "",
-        "columns": [
-          {
-            "name": "id",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "ccca6e93-36ef-4f08-ae31-7054f27017b7"
-          },
-          {
-            "name": "calon_id",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "57e73cb6-3522-4dd4-abd1-847dd3f8448e"
-          },
-          {
-            "name": "promo_id",
-            "comment": "",
-            "dataType": "VARCHAR(20)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "0e7d2360-08d0-49af-82ac-df175d8c3b11"
-          },
-          {
-            "name": "paket_id",
-            "comment": "",
-            "dataType": "VARCHAR(20)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "11fbe7a5-8c49-4fe5-908e-54ed5fdd1b2e"
-          },
-          {
-            "name": "nik",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "161a4157-9471-44d8-9d86-dba0fe949d3e"
-          },
-          {
-            "name": "nama",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "bb84cdc4-9253-452a-bc1e-cafddde50ef3"
-          },
-          {
-            "name": "jk",
-            "comment": "",
-            "dataType": "ENUM('L','P')",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 78.375,
-              "widthDefault": 60
-            },
-            "id": "d994ef00-f010-44a1-aa92-bd1865f076ae"
-          },
-          {
-            "name": "alamat",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "8270c64a-230b-4511-90a9-ee48138c83e1"
-          },
-          {
-            "name": "kecamatan",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 65.5908203125,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "40c1c38f-9e97-4a5e-9dc7-84a296d7fa6e"
-          },
-          {
-            "name": "kota_kabupaten",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 94.5234375,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "0bb8a7a4-a256-4bb4-9216-616b466c013e"
-          },
-          {
-            "name": "provinsi",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "64dce4c9-6545-4049-b382-f00a562fa685"
-          },
-          {
-            "name": "status",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "5e0b4a53-0bd9-4661-954a-936e830cccde"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 1201.866,
-          "top": 20.353,
-          "zIndex": 76,
-          "widthName": 82.208984375,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "b0b143b3-fed7-4841-8b59-7e761e6a648c"
-      },
-      {
-        "name": "verif_subs",
-        "comment": "",
-        "columns": [
-          {
-            "name": "id",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "9f0a859f-48b6-4ec5-ae05-8a3418054367"
-          },
-          {
-            "name": "calon_id",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "876d8894-b3c4-48d8-9e0e-6c624775ab4a"
-          },
-          {
-            "name": "tipe_customer",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 83.64990234375,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "68616f91-d8be-44dc-940a-6536876c3496"
-          },
-          {
-            "name": "alamat_terpasang",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 106.06982421875,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "f9363609-a436-44a0-837e-bc8ee0a22cbc"
-          },
-          {
-            "name": "koordinat",
-            "comment": "",
-            "dataType": "FLOAT(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 66.0478515625,
-              "widthDefault": 60
-            },
-            "id": "f692c9ee-d972-4c2f-938a-53c81dbf0330"
-          },
-          {
-            "name": "ket_alamat",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 65.5908203125,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "c00d2e68-796f-492f-9bf9-ee224cdbd4b5"
-          },
-          {
-            "name": "odp_req",
-            "comment": "",
-            "dataType": "VARCHAR(30)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "a85993f6-3943-4a8d-84cc-789d2df94af3"
-          },
-          {
-            "name": "port",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "861e7533-de1a-4d61-a484-42e7ddb66e4e"
-          },
-          {
-            "name": "jarak",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "f8408c80-223d-4b2a-9460-3ba37ac9283b"
-          },
-          {
-            "name": "foto_ktp",
-            "comment": "",
-            "dataType": "VARCHAR(255)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 94.94873046875,
-              "widthDefault": 60
-            },
-            "id": "7b6fbf74-d099-4849-bb0b-137dc5467b2f"
-          },
-          {
-            "name": "foto_rumah",
-            "comment": "",
-            "dataType": "VARCHAR(255)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 67.76171875,
-              "widthComment": 60,
-              "widthDataType": 94.94873046875,
-              "widthDefault": 60
-            },
-            "id": "0d1dc743-cdd8-48bc-875a-fee177b9a10b"
-          },
-          {
-            "name": "foto_sc_jalur",
-            "comment": "",
-            "dataType": "VARCHAR(255)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 75.708984375,
-              "widthComment": 60,
-              "widthDataType": 94.94873046875,
-              "widthDefault": 60
-            },
-            "id": "95fa5665-e3a0-44b5-af05-53ec1b8d4dc6"
-          },
-          {
-            "name": "tgl_request",
-            "comment": "",
-            "dataType": "DATE",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 66.32080078125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "88cb6a88-e7a4-4592-be34-fd2b749da967"
-          },
-          {
-            "name": "survey_by",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 61.2490234375,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "832bc5c2-9771-467e-bed6-cebb3536a350"
-          },
-          {
-            "name": "status",
-            "comment": "",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "5c5380e0-aa76-4d5d-9444-e2428f4e70d0"
-          }
-        ],
-        "ui": {
-          "active": false,
-          "left": 1214.1452,
-          "top": 773.6459,
-          "zIndex": 95,
-          "widthName": 61.2490234375,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "970c051c-4871-45e7-a694-e6b04be454ca"
       },
       {
         "name": "jdw",
@@ -1792,7 +1139,7 @@
             "id": "e75fd3fd-155b-4495-9867-f9f10aeb96db"
           },
           {
-            "name": "verif_id",
+            "name": "klotter_id",
             "comment": "",
             "dataType": "INT",
             "default": "",
@@ -1812,12 +1159,12 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "6b25651d-f11f-4821-9564-39009a3f21a0"
+            "id": "396ccd62-f1b6-4ae6-bdf5-37b1b723c412"
           },
           {
-            "name": "verif_subs_id",
+            "name": "c_close_id",
             "comment": "",
-            "dataType": "INT",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1830,12 +1177,12 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 78.59716796875,
+              "widthName": 63.42626953125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
-            "id": "a0be44ff-bb7b-48ae-9b8d-4466445beb64"
+            "id": "e3b3e9a0-8f30-4419-b8e0-1ff71adf5279"
           },
           {
             "name": "tgl_pemasangan",
@@ -1863,33 +1210,128 @@
         ],
         "ui": {
           "active": false,
-          "left": 1505.3098,
-          "top": 393.022,
-          "zIndex": 101,
+          "left": 1296.9532,
+          "top": 225.8206,
+          "zIndex": 93,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "3c8a6ba6-8410-4d9e-8570-d61a7989a08e"
+      },
+      {
+        "name": "klotter",
+        "comment": "",
+        "columns": [
+          {
+            "name": "klotter_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "674cd86e-e053-4221-bd08-30f11522201b"
+          },
+          {
+            "name": "nama_klotter",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.14990234375,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "5cfc491e-2aed-4cf1-814c-c8a02749aaf7"
+          },
+          {
+            "name": "start_time",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b377e712-aef3-45d6-9707-9febc5d5386c"
+          },
+          {
+            "name": "end_time",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "73a4fb9c-fa02-4d6a-9843-ea051343ae34"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1320.5439,
+          "top": 479.1541,
+          "zIndex": 91,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "81c5edc4-5ad9-4975-b44f-f2c1b9b2b1b3"
       }
     ],
     "indexes": []
   },
   "memo": {
-    "memos": [
-      {
-        "value": "Terdapat 3 phase :\n1. ketemu\n2. interaksi\n3. clossing",
-        "ui": {
-          "active": false,
-          "left": 1697,
-          "top": 117.33333333333331,
-          "zIndex": 1,
-          "width": 283,
-          "height": 148
-        },
-        "id": "f290b9be-8d93-4e38-aeff-305b2ff7d468"
-      }
-    ]
+    "memos": []
   },
   "relationship": {
     "relationships": [
@@ -1911,8 +1353,8 @@
           "columnIds": [
             "8e3ca9be-4e85-4c1e-8471-2a4cd8963e6b"
           ],
-          "x": 647.99123125,
-          "y": 491.9157,
+          "x": 569.76803125,
+          "y": 459.9153,
           "direction": "right"
         },
         "constraintName": "fk__to_",
@@ -1950,52 +1392,52 @@
         "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "b0b143b3-fed7-4841-8b59-7e761e6a648c",
+          "tableId": "81c5edc4-5ad9-4975-b44f-f2c1b9b2b1b3",
           "columnIds": [
-            "ccca6e93-36ef-4f08-ae31-7054f27017b7"
+            "674cd86e-e053-4221-bd08-30f11522201b"
           ],
-          "x": 1406.48709375,
-          "y": 335.353,
-          "direction": "bottom"
+          "x": 1504.919144140625,
+          "y": 479.1541,
+          "direction": "top"
         },
         "end": {
           "tableId": "3c8a6ba6-8410-4d9e-8570-d61a7989a08e",
           "columnIds": [
-            "6b25651d-f11f-4821-9564-39009a3f21a0"
+            "396ccd62-f1b6-4ae6-bdf5-37b1b723c412"
           ],
-          "x": 1505.3098,
-          "y": 430.772,
-          "direction": "left"
+          "x": 1533.377028125,
+          "y": 376.8206,
+          "direction": "bottom"
         },
-        "constraintName": "fk_verif_identitas_to_jdw",
+        "constraintName": "fk_klotter_to_jdw",
         "visible": true,
-        "id": "ea0a539f-0383-4de5-b1fe-30a737c2fdb9"
+        "id": "9697504d-ab86-4ea2-9879-83b385b8cf62"
       },
       {
         "identification": false,
         "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "970c051c-4871-45e7-a694-e6b04be454ca",
+          "tableId": "ef55d885-46cf-498d-94a5-c478d3d9603f",
           "columnIds": [
-            "9f0a859f-48b6-4ec5-ae05-8a3418054367"
+            "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
-          "x": 1428.15447734375,
-          "y": 773.6459,
-          "direction": "top"
+          "x": 1159.02736796875,
+          "y": 410.5847,
+          "direction": "right"
         },
         "end": {
           "tableId": "3c8a6ba6-8410-4d9e-8570-d61a7989a08e",
           "columnIds": [
-            "a0be44ff-bb7b-48ae-9b8d-4466445beb64"
+            "e3b3e9a0-8f30-4419-b8e0-1ff71adf5279"
           ],
-          "x": 1505.3098,
-          "y": 506.272,
+          "x": 1296.9532,
+          "y": 301.3206,
           "direction": "left"
         },
-        "constraintName": "fk_verif_subs_to_jdw",
+        "constraintName": "fk_cust_closing_to_jdw",
         "visible": true,
-        "id": "a99a1334-5c61-4972-a62f-5322306b22c0"
+        "id": "8ee792ea-fcd8-425d-a297-fc9aa136ab14"
       }
     ]
   }
