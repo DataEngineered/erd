@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -109.59999999999923,
-    "scrollLeft": -49.60000000000056,
+    "scrollTop": -124.79999999999934,
+    "scrollLeft": -621.6000000000012,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -235,7 +235,7 @@
           "active": false,
           "left": 69.112,
           "top": 120.667,
-          "zIndex": 2,
+          "zIndex": 99,
           "widthName": 60,
           "widthComment": 60
         },
@@ -780,7 +780,7 @@
           "active": false,
           "left": 742.5552,
           "top": 140.3347,
-          "zIndex": 96,
+          "zIndex": 102,
           "widthName": 73.5380859375,
           "widthComment": 60
         },
@@ -1206,13 +1206,36 @@
               "widthDefault": 60
             },
             "id": "23a7bdb7-6cea-4fb7-92f3-0eceea20f001"
+          },
+          {
+            "name": "teknisi_id",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "248864eb-c82c-49c9-afdc-18ef55fd89fa"
           }
         ],
         "ui": {
           "active": false,
-          "left": 1240.9532,
-          "top": 188.2206,
-          "zIndex": 98,
+          "left": 1244.1532,
+          "top": 181.8206,
+          "zIndex": 111,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1405,8 +1428,8 @@
           "columnIds": [
             "396ccd62-f1b6-4ae6-bdf5-37b1b723c412"
           ],
-          "x": 1477.377028125,
-          "y": 339.2206,
+          "x": 1480.577028125,
+          "y": 353.3206,
           "direction": "bottom"
         },
         "constraintName": "fk_klotter_to_jdw",
@@ -1431,8 +1454,8 @@
           "columnIds": [
             "e3b3e9a0-8f30-4419-b8e0-1ff71adf5279"
           ],
-          "x": 1240.9532,
-          "y": 263.7206,
+          "x": 1244.1532,
+          "y": 267.5706,
           "direction": "left"
         },
         "constraintName": "fk_cust_closing_to_jdw",

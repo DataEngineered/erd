@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -62.400000000000006,
+    "scrollTop": -0.8,
+    "scrollLeft": -60.80000000000001,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -247,6 +247,29 @@
             "id": "e581727b-c225-4a1e-9ee1-45f63cc57049"
           },
           {
+            "name": "odp_id",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "c023b597-db11-4b12-a1b8-46b001ffeead"
+          },
+          {
             "name": "tanggal_pemasangan",
             "comment": "",
             "dataType": "DATE",
@@ -297,7 +320,7 @@
           "active": false,
           "left": 649.2,
           "top": 27,
-          "zIndex": 5,
+          "zIndex": 12,
           "widthName": 103.9052734375,
           "widthComment": 90.9052734375
         },
@@ -695,9 +718,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 658.4,
-          "top": 241.6,
-          "zIndex": 2,
+          "left": 648.8,
+          "top": 285.6,
+          "zIndex": 15,
           "widthName": 82.21533203125,
           "widthComment": 90.9052734375
         },
@@ -735,7 +758,7 @@
             "e7d1509a-c377-42c0-9420-7858f5e17059"
           ],
           "x": 649.2,
-          "y": 112.75,
+          "y": 123,
           "direction": "left"
         },
         "end": {
@@ -760,8 +783,8 @@
           "columnIds": [
             "08ae74de-d431-411e-b4b1-1007e1c3463c"
           ],
-          "x": 658.4,
-          "y": 347.85,
+          "x": 648.8,
+          "y": 391.85,
           "direction": "left"
         },
         "end": {
@@ -776,6 +799,32 @@
         "constraintName": "fk_distribusi_odp_to_arsip",
         "visible": true,
         "id": "ef779ae3-538f-4ca4-ab61-702840009c99"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b5c4e8b2-aa8f-43a4-a828-ab993abea910",
+          "columnIds": [
+            "08ae74de-d431-411e-b4b1-1007e1c3463c"
+          ],
+          "x": 841.13203125,
+          "y": 285.6,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "99a8a4ed-45f0-4759-93f6-5dd46b6c1be7",
+          "columnIds": [
+            "c023b597-db11-4b12-a1b8-46b001ffeead"
+          ],
+          "x": 870.0837890625,
+          "y": 219,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_distribusi_odp_to_jdw_pemasangan",
+        "visible": true,
+        "id": "1124a35a-1a41-418c-85bb-9f86bb52c6ab"
       }
     ]
   }
