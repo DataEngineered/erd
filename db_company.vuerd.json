@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "db_company",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -97,7 +97,7 @@
           "active": false,
           "left": 535.2,
           "top": 29.6,
-          "zIndex": 21,
+          "zIndex": 3,
           "widthName": 70.6689453125,
           "widthComment": 76.43896484375
         },
@@ -205,7 +205,7 @@
           "active": false,
           "left": 48,
           "top": 149.6,
-          "zIndex": 19,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 76.43896484375
         },
@@ -290,7 +290,7 @@
           "active": false,
           "left": 608,
           "top": 168,
-          "zIndex": 30,
+          "zIndex": 4,
           "widthName": 86.56982421875,
           "widthComment": 76.43896484375
         },
@@ -420,7 +420,7 @@
             "name": "jk",
             "comment": "",
             "dataType": "ENUM('L','P')",
-            "default": "L/K",
+            "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
@@ -464,10 +464,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 532,
           "top": 336,
-          "zIndex": 43,
+          "zIndex": 8,
           "widthName": 101.0361328125,
           "widthComment": 76.43896484375
         },
@@ -485,7 +485,7 @@
           "active": false,
           "left": 1267.0000000000018,
           "top": 91.19999999999993,
-          "zIndex": 2,
+          "zIndex": 1,
           "width": 371,
           "height": 301
         },

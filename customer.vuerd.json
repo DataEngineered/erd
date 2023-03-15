@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -9,
+    "scrollLeft": -25.600000000000012,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -118,7 +118,7 @@
           {
             "name": "nik",
             "comment": "",
-            "dataType": "CHAR(16)",
+            "dataType": "VARCHAR(30)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 61.95361328125,
+              "widthDataType": 87.71875,
               "widthDefault": 60
             },
             "id": "3fe2fd95-24df-4992-80fb-e061000b70bd"
@@ -256,7 +256,7 @@
           {
             "name": "koordinat",
             "comment": "",
-            "dataType": "VARCHAR(255)",
+            "dataType": "VARCHAR(100)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -327,7 +327,7 @@
           "active": false,
           "left": 53.9111,
           "top": 17.8672,
-          "zIndex": 12,
+          "zIndex": 24,
           "widthName": 64.8671875,
           "widthComment": 77.14990234375
         },
@@ -642,7 +642,7 @@
           "active": false,
           "left": 685,
           "top": 10,
-          "zIndex": 15,
+          "zIndex": 5,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -727,7 +727,7 @@
           "active": false,
           "left": 62.0891,
           "top": 433.2442,
-          "zIndex": 23,
+          "zIndex": 6,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -904,7 +904,7 @@
           "active": false,
           "left": 685.7555,
           "top": 361.1778,
-          "zIndex": 8,
+          "zIndex": 2,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -989,7 +989,7 @@
           "active": false,
           "left": 684.3336,
           "top": 592.1118,
-          "zIndex": 10,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
