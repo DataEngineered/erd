@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -5,
+    "scrollLeft": -653.6093750000002,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "db_operasional",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -279,9 +279,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 124,
-          "top": 91,
-          "zIndex": 6,
+          "left": 52,
+          "top": 45.4,
+          "zIndex": 2,
           "widthName": 73.55712890625,
           "widthComment": 60
         },
@@ -663,9 +663,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 641.4,
-          "top": 53.2,
-          "zIndex": 7,
+          "left": 505.4,
+          "top": 40.4,
+          "zIndex": 3,
           "widthName": 72.8271484375,
           "widthComment": 60
         },
@@ -756,6 +756,392 @@
         },
         "visible": true,
         "id": "165b72e4-0fb6-4311-9b0d-265f0c8e4081"
+      },
+      {
+        "name": "tim_teknisi",
+        "comment": "",
+        "columns": [
+          {
+            "name": "tim_id",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "9bccdded-9e9a-495b-a7b4-ca33f0ed7125"
+          },
+          {
+            "name": "nama_tim",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "93f6615f-28fa-4d7e-97b2-4ff12fc75236"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 915.4,
+          "top": 48,
+          "zIndex": 87,
+          "widthName": 63.4072265625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "77164529-7cb1-46ac-8a08-0f651caf55d3"
+      },
+      {
+        "name": "pengelompokan_teknisi",
+        "comment": "",
+        "columns": [
+          {
+            "name": "teknisi_id",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "ba7d57a2-6b7e-4d6a-94d6-15dafb7a0815"
+          },
+          {
+            "name": "tim_id",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "6bc5d9e3-e396-4c74-a737-7866a3bf327b"
+          },
+          {
+            "name": "pegawai_id",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.7744140625,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "c106c16a-dca9-4c76-ac56-d5a45b4ef7d3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1405.8,
+          "top": 45.6,
+          "zIndex": 84,
+          "widthName": 138.59521484375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "922f782f-9044-46f0-b804-1b19d8dca53a"
+      },
+      {
+        "name": "klotter",
+        "comment": "",
+        "columns": [
+          {
+            "name": "klotter_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c003fbab-ae8f-463d-b656-0be6d1f8b762"
+          },
+          {
+            "name": "nama_klotter",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 77.14990234375,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "f6cb50ae-2e11-4bcc-846c-e2e0b2559db2"
+          },
+          {
+            "name": "start_time",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e7331e73-1438-48ee-bb1e-8c337f0fe9ea"
+          },
+          {
+            "name": "end_time",
+            "comment": "",
+            "dataType": "TIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "426aaaa3-f5cd-49b3-8de9-f961ec733b9c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1408.8125,
+          "top": 214.4,
+          "zIndex": 86,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "73634422-8c6b-494d-a4c7-021bae61b95e"
+      },
+      {
+        "name": "jdw",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bcddd093-42c1-4066-b327-8d501949fb95"
+          },
+          {
+            "name": "klotter_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "eacbf283-e9fb-42c4-b25a-131ed6d4a150"
+          },
+          {
+            "name": "teknisi_id",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "a4a6c739-7c45-41a4-8630-2317fd92edb3"
+          },
+          {
+            "name": "c_close_id",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 63.42626953125,
+              "widthComment": 60,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "71dd2507-758f-4078-85a8-df43f84f9fdc"
+          },
+          {
+            "name": "tgl_pemasangan",
+            "comment": "",
+            "dataType": "DATETIME",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 98.12890625,
+              "widthComment": 60,
+              "widthDataType": 66.7587890625,
+              "widthDefault": 60
+            },
+            "id": "4fdec40e-7920-4cf7-a95c-a31842d8adc3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 896.0125,
+          "top": 194.4,
+          "zIndex": 85,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2f8fad8f-1919-4e24-97cb-89e4fa3c8ae3"
       }
     ],
     "indexes": []
@@ -764,6 +1150,85 @@
     "memos": []
   },
   "relationship": {
-    "relationships": []
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "77164529-7cb1-46ac-8a08-0f651caf55d3",
+          "columnIds": [
+            "9bccdded-9e9a-495b-a7b4-ca33f0ed7125"
+          ],
+          "x": 1290.11875,
+          "y": 103,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "922f782f-9044-46f0-b804-1b19d8dca53a",
+          "columnIds": [
+            "6bc5d9e3-e396-4c74-a737-7866a3bf327b"
+          ],
+          "x": 1405.8,
+          "y": 78.225,
+          "direction": "left"
+        },
+        "constraintName": "fk_tim_teknisi_to_pengelompokan_tim",
+        "visible": true,
+        "id": "12f33b76-3a8d-410a-9b17-175a748612c8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "73634422-8c6b-494d-a4c7-021bae61b95e",
+          "columnIds": [
+            "c003fbab-ae8f-463d-b656-0be6d1f8b762"
+          ],
+          "x": 1408.8125,
+          "y": 289.9,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "2f8fad8f-1919-4e24-97cb-89e4fa3c8ae3",
+          "columnIds": [
+            "eacbf283-e9fb-42c4-b25a-131ed6d4a150"
+          ],
+          "x": 1308.86015625,
+          "y": 237.275,
+          "direction": "right"
+        },
+        "constraintName": "fk_klotter_to_jdw",
+        "visible": true,
+        "id": "d75bd143-04ed-405c-b3f7-a5da84a6c103"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "922f782f-9044-46f0-b804-1b19d8dca53a",
+          "columnIds": [
+            "ba7d57a2-6b7e-4d6a-94d6-15dafb7a0815"
+          ],
+          "x": 1405.8,
+          "y": 143.475,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "2f8fad8f-1919-4e24-97cb-89e4fa3c8ae3",
+          "columnIds": [
+            "a4a6c739-7c45-41a4-8630-2317fd92edb3"
+          ],
+          "x": 1308.86015625,
+          "y": 323.025,
+          "direction": "right"
+        },
+        "constraintName": "fk_pengelompokan_teknisi_to_jdw",
+        "visible": true,
+        "id": "ccd4cf2c-53a8-4888-919c-b4c42eede777"
+      }
+    ]
   }
 }
