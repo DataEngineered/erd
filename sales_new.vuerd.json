@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -95.19999999999999,
-    "scrollLeft": -35.99999999999854,
+    "scrollTop": 0,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -232,10 +232,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 81.4231,
           "top": 122.8446,
-          "zIndex": 46,
+          "zIndex": 9,
           "widthName": 101.00439453125,
           "widthComment": 78.59716796875
         },
@@ -865,7 +865,7 @@
           "active": false,
           "left": 260.0668,
           "top": 585.2659,
-          "zIndex": 36,
+          "zIndex": 7,
           "widthName": 120.5234375,
           "widthComment": 60
         },
@@ -973,7 +973,7 @@
           "active": false,
           "left": 234.844,
           "top": 394.3991,
-          "zIndex": 38,
+          "zIndex": 8,
           "widthName": 77.8671875,
           "widthComment": 60
         },
@@ -1081,7 +1081,7 @@
           "active": false,
           "left": 679.8392,
           "top": 790.4967,
-          "zIndex": 7,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1350,7 +1350,7 @@
           "active": false,
           "left": 851.1108,
           "top": 17.1528,
-          "zIndex": 19,
+          "zIndex": 4,
           "widthName": 82.208984375,
           "widthComment": 60
         },
@@ -1596,7 +1596,7 @@
           "active": false,
           "left": 872.9895,
           "top": 409.8685,
-          "zIndex": 22,
+          "zIndex": 10,
           "widthName": 61.2490234375,
           "widthComment": 60
         },
@@ -1704,7 +1704,7 @@
           "active": false,
           "left": 1516.9123,
           "top": 278.2224,
-          "zIndex": 25,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1722,7 +1722,7 @@
           "active": false,
           "left": 1697,
           "top": 69.33333333333347,
-          "zIndex": 3,
+          "zIndex": 2,
           "width": 283,
           "height": 148
         },
