@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -53.60000000000011,
-    "scrollLeft": -12.000000000000012,
+    "scrollTop": -170.39999999999952,
+    "scrollLeft": -71.19999999999993,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -327,7 +327,7 @@
           "active": false,
           "left": 53.9111,
           "top": 17.8672,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 64.8671875,
           "widthComment": 77.14990234375
         },
@@ -642,7 +642,7 @@
           "active": false,
           "left": 685,
           "top": 10,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60.53173828125,
           "widthComment": 77.14990234375
         },
@@ -767,13 +767,36 @@
               "widthDefault": 60
             },
             "id": "7f04d2ec-37cc-49f6-8df0-5d02b19e5138"
+          },
+          {
+            "name": "signature",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "74939e8c-75b7-4161-a18a-20f2f12b4883"
           }
         ],
         "ui": {
           "active": false,
-          "left": 54.0891,
-          "top": 426.0442,
-          "zIndex": 6,
+          "left": 51.6891,
+          "top": 382.8442,
+          "zIndex": 5,
           "widthName": 89.43896484375,
           "widthComment": 77.14990234375
         },
@@ -948,9 +971,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 685.7555,
-          "top": 361.1778,
-          "zIndex": 2,
+          "left": 683.3555,
+          "top": 366.7778,
+          "zIndex": 6,
           "widthName": 105.33984375,
           "widthComment": 60
         },
@@ -1035,7 +1058,7 @@
           "active": false,
           "left": 684.3336,
           "top": 592.1118,
-          "zIndex": 5,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1107,8 +1130,8 @@
           "columnIds": [
             "d86cb0e9-bd25-4d37-90f7-5384fe942245"
           ],
-          "x": 685.7555,
-          "y": 520.5527999999999,
+          "x": 683.3555,
+          "y": 526.1528000000001,
           "direction": "left"
         },
         "constraintName": "fk_cus_profile_to_cust_pembayaran",
@@ -1124,8 +1147,8 @@
           "columnIds": [
             "95ff53ff-98a5-41b5-b264-fd9b842c8307"
           ],
-          "x": 476.30589687500003,
-          "y": 454.62753333333336,
+          "x": 481.13587734375,
+          "y": 414.8442,
           "direction": "right"
         },
         "end": {
@@ -1133,8 +1156,8 @@
           "columnIds": [
             "09ffc6c2-345a-45b3-a69c-644a75428475"
           ],
-          "x": 685.7555,
-          "y": 414.3028,
+          "x": 683.3555,
+          "y": 419.9028,
           "direction": "left"
         },
         "constraintName": "fk_virtual_account_to_cust_pembayaran",
@@ -1159,8 +1182,8 @@
           "columnIds": [
             "f0320104-1e3c-4832-9478-a2bc3ea9cbae"
           ],
-          "x": 476.30589687500003,
-          "y": 511.79420000000005,
+          "x": 481.13587734375,
+          "y": 478.8442,
           "direction": "right"
         },
         "constraintName": "fk_db_chanel_to_virtual_account",
@@ -1185,8 +1208,8 @@
           "columnIds": [
             "a9b5b4c6-e089-4a56-a517-a8ec1613f79c"
           ],
-          "x": 476.30589687500003,
-          "y": 568.9608666666667,
+          "x": 481.13587734375,
+          "y": 542.8442,
           "direction": "right"
         },
         "constraintName": "fk_cust_subs_to_virtual_account",

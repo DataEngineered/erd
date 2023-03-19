@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -111.19999999999999,
+    "scrollTop": -10.4,
+    "scrollLeft": -54.40000000000004,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -302,9 +302,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 66.6,
-          "top": 82.4,
-          "zIndex": 12,
+          "left": 70.6,
+          "top": 36,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -387,9 +387,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 972.2,
-          "top": 208,
-          "zIndex": 3,
+          "left": 1069.8,
+          "top": 38.4,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -579,10 +579,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 542.4,
-          "top": 372,
-          "zIndex": 4,
+          "active": true,
+          "left": 583.2,
+          "top": 193.6,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -619,8 +619,8 @@
           "columnIds": [
             "276bbac3-17ed-4cdf-b18b-49d8abd9cbf9"
           ],
-          "x": 972.2,
-          "y": 305.875,
+          "x": 1069.8,
+          "y": 136.275,
           "direction": "left"
         },
         "end": {
@@ -628,8 +628,8 @@
           "columnIds": [
             "e84f2e59-ac28-46e2-a556-96340e8faee6"
           ],
-          "x": 919.116796875,
-          "y": 447.5,
+          "x": 959.916796875,
+          "y": 269.1,
           "direction": "right"
         },
         "constraintName": "fk_jabatan_to_gaji",
@@ -654,8 +654,8 @@
           "columnIds": [
             "57c95045-c009-4172-9400-7f9e9d0b0089"
           ],
-          "x": 972.2,
-          "y": 240.625,
+          "x": 1069.8,
+          "y": 71.025,
           "direction": "left"
         },
         "constraintName": "fk_divisi_to_jabatan",
@@ -671,8 +671,8 @@
           "columnIds": [
             "52873ffd-7738-4d56-809c-4f02f605a0e8"
           ],
-          "x": 501.84853515625,
-          "y": 229.65,
+          "x": 505.84853515625,
+          "y": 183.25,
           "direction": "right"
         },
         "end": {

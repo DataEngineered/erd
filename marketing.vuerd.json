@@ -206,13 +206,59 @@
               "widthDefault": 60
             },
             "id": "2c43f4b8-6b3a-4b50-a1a6-a6a2540586de"
+          },
+          {
+            "name": "keterangan",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.05078125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "80986268-77eb-4218-a135-2084fb66f125"
+          },
+          {
+            "name": "cara_pemakaian",
+            "comment": "",
+            "dataType": "MEDIUMTEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 98.1162109375,
+              "widthComment": 60,
+              "widthDataType": 87.94091796875,
+              "widthDefault": 60
+            },
+            "id": "a8403a5f-1533-4c4d-a5ef-ef654cc82ca9"
           }
         ],
         "ui": {
-          "active": false,
+          "active": true,
           "left": 694.2,
           "top": 58.4,
-          "zIndex": 4,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -340,10 +386,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 112,
           "top": 110.4,
-          "zIndex": 5,
+          "zIndex": 2,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -368,7 +414,7 @@
             "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           ],
           "x": 694.2,
-          "y": 164.65,
+          "y": 185.15,
           "direction": "left"
         },
         "end": {

@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -653.6093750000002,
+    "scrollLeft": -617.6000000000001,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -281,7 +281,7 @@
           "active": false,
           "left": 52,
           "top": 45.4,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 73.55712890625,
           "widthComment": 60
         },
@@ -665,7 +665,7 @@
           "active": false,
           "left": 505.4,
           "top": 40.4,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 72.8271484375,
           "widthComment": 60
         },
@@ -748,9 +748,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 414,
-          "top": 620,
-          "zIndex": 1,
+          "left": 58,
+          "top": 352.8,
+          "zIndex": 7,
           "widthName": 60,
           "widthComment": 60
         },
@@ -812,7 +812,7 @@
           "active": false,
           "left": 915.4,
           "top": 48,
-          "zIndex": 87,
+          "zIndex": 3,
           "widthName": 63.4072265625,
           "widthComment": 60
         },
@@ -895,9 +895,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1405.8,
-          "top": 45.6,
-          "zIndex": 84,
+          "left": 1433.8,
+          "top": 65.6,
+          "zIndex": 4,
           "widthName": 138.59521484375,
           "widthComment": 60
         },
@@ -1003,9 +1003,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1408.8125,
+          "left": 1432.8125,
           "top": 214.4,
-          "zIndex": 86,
+          "zIndex": 5,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1134,9 +1134,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 896.0125,
-          "top": 194.4,
-          "zIndex": 85,
+          "left": 921.6125,
+          "top": 200,
+          "zIndex": 6,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1169,8 +1169,8 @@
           "columnIds": [
             "6bc5d9e3-e396-4c74-a737-7866a3bf327b"
           ],
-          "x": 1405.8,
-          "y": 78.225,
+          "x": 1433.8,
+          "y": 98.225,
           "direction": "left"
         },
         "constraintName": "fk_tim_teknisi_to_pengelompokan_tim",
@@ -1186,7 +1186,7 @@
           "columnIds": [
             "c003fbab-ae8f-463d-b656-0be6d1f8b762"
           ],
-          "x": 1408.8125,
+          "x": 1432.8125,
           "y": 289.9,
           "direction": "left"
         },
@@ -1195,8 +1195,8 @@
           "columnIds": [
             "eacbf283-e9fb-42c4-b25a-131ed6d4a150"
           ],
-          "x": 1308.86015625,
-          "y": 237.275,
+          "x": 1334.46015625,
+          "y": 242.875,
           "direction": "right"
         },
         "constraintName": "fk_klotter_to_jdw",
@@ -1212,8 +1212,8 @@
           "columnIds": [
             "ba7d57a2-6b7e-4d6a-94d6-15dafb7a0815"
           ],
-          "x": 1405.8,
-          "y": 143.475,
+          "x": 1433.8,
+          "y": 163.475,
           "direction": "left"
         },
         "end": {
@@ -1221,8 +1221,8 @@
           "columnIds": [
             "a4a6c739-7c45-41a4-8630-2317fd92edb3"
           ],
-          "x": 1308.86015625,
-          "y": 323.025,
+          "x": 1334.46015625,
+          "y": 328.625,
           "direction": "right"
         },
         "constraintName": "fk_pengelompokan_teknisi_to_jdw",
