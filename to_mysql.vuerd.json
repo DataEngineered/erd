@@ -3,8 +3,13 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
+<<<<<<< HEAD
     "scrollTop": 0,
-    "scrollLeft": -681.609375,
+    "scrollLeft": -32,
+=======
+    "scrollTop": -117.59999999999903,
+    "scrollLeft": -716.8125,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -258,7 +263,11 @@
           "active": false,
           "left": 58.4453,
           "top": 102.0003,
+<<<<<<< HEAD
+          "zIndex": 3,
+=======
           "zIndex": 1,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -824,9 +833,15 @@
         ],
         "ui": {
           "active": false,
+<<<<<<< HEAD
+          "left": 796.5552,
+          "top": 111.3347,
+          "zIndex": 62,
+=======
           "left": 803.9791,
           "top": 62.7561,
           "zIndex": 5,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 73.5380859375,
           "widthComment": 60
         },
@@ -930,6 +945,29 @@
             "id": "16f06767-f8f8-4b21-b239-c8775cbe409b"
           },
           {
+            "name": "jlm_gram",
+            "comment": "",
+            "dataType": "FLOAT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ec7bc85b-90a7-4a53-8ee8-45359a9c8a09"
+          },
+          {
             "name": "tanggal_ambil",
             "comment": "",
             "dataType": "DATE",
@@ -955,9 +993,15 @@
         ],
         "ui": {
           "active": false,
+<<<<<<< HEAD
+          "left": 104.6668,
+          "top": 1049.6659,
+          "zIndex": 59,
+=======
           "left": 604.3343,
           "top": 837.4443,
           "zIndex": 2,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1063,9 +1107,15 @@
         ],
         "ui": {
           "active": false,
+<<<<<<< HEAD
+          "left": 86.9985,
+          "top": 529.6653,
+          "zIndex": 69,
+=======
           "left": 255.0201,
           "top": 411.2875,
           "zIndex": 6,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1171,9 +1221,15 @@
         ],
         "ui": {
           "active": false,
-          "left": 1101.8833,
-          "top": 665.4731,
-          "zIndex": 7,
+<<<<<<< HEAD
+          "left": 643.9948,
+          "top": 1078.74,
+          "zIndex": 60,
+=======
+          "left": 920.9948,
+          "top": 729.74,
+          "zIndex": 3,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1301,10 +1357,17 @@
           }
         ],
         "ui": {
+<<<<<<< HEAD
           "active": false,
-          "left": 1370.3764,
-          "top": 109.7318,
-          "zIndex": 3,
+          "left": 1527.15234375,
+          "top": 163.8206,
+          "zIndex": 7,
+=======
+          "active": true,
+          "left": 1244.1532,
+          "top": 181.8206,
+          "zIndex": 10,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1410,9 +1473,15 @@
         ],
         "ui": {
           "active": false,
-          "left": 1421.9682,
-          "top": 373.1988,
-          "zIndex": 4,
+<<<<<<< HEAD
+          "left": 1617.7439,
+          "top": 514.1541,
+          "zIndex": 6,
+=======
+          "left": 1303.7439,
+          "top": 451.1541,
+          "zIndex": 9,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1420,59 +1489,13 @@
         "id": "81c5edc4-5ad9-4975-b44f-f2c1b9b2b1b3"
       },
       {
-        "name": "promo",
+        "name": "verify",
         "comment": "",
         "columns": [
           {
             "name": "id",
             "comment": "",
-            "dataType": "VARCHAR(25)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "24c0bba1-0afd-4288-b938-bbc871ff6cb7"
-          },
-          {
-            "name": "jenis_promo",
-            "comment": "",
-            "dataType": "ENUM('Potongan','Cashback')",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 72.814453125,
-              "widthComment": 60,
-              "widthDataType": 175.94482421875,
-              "widthDefault": 60
-            },
-            "id": "fdf30777-7f22-4d96-8b95-d93b22cbaf74"
-          },
-          {
-            "name": "jumlah",
-            "comment": "",
-            "dataType": "DECIMAL",
+            "dataType": "",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1490,12 +1513,12 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "18eca5f2-6880-475c-bd40-fa9eb329379f"
+            "id": "5e0eb15e-fef0-436e-9c51-2d91bf85aef1"
           },
           {
-            "name": "keterangan",
+            "name": "promo_id",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1508,17 +1531,17 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 67.05078125,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "3760172c-0bdd-4c4a-9d31-7b8ebd1b4e91"
+            "id": "c597e392-6535-4d7b-95f0-6dcc572d91b5"
           },
           {
-            "name": "cara_pemakaian",
+            "name": "cuts_casback",
             "comment": "",
-            "dataType": "MEDIUMTEXT",
+            "dataType": "",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -1531,30 +1554,112 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 98.1162109375,
+              "widthName": 80.76171875,
               "widthComment": 60,
-              "widthDataType": 87.94091796875,
+              "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "2bfda9de-deb8-4f73-b1dd-5a42569d0337"
+            "id": "796f6a2f-26fc-4fbc-86e7-55b28bbfcde4"
+          },
+          {
+            "name": "nominal",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a240cd68-15d2-4338-8275-48dfa0c3f550"
+          },
+          {
+            "name": "verify_by",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "eb61e674-6c65-4da3-a214-a6917a10ba4e"
+          },
+          {
+            "name": "tgl_verify",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9014633b-bad5-40b8-a5d7-baaaa2e2efb2"
           }
         ],
         "ui": {
           "active": false,
-          "left": 109.8666,
-          "top": 635.8239,
-          "zIndex": 8,
+          "left": 1439,
+          "top": 821,
+          "zIndex": 65,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
-        "id": "b91f05cd-a23e-44cf-864f-1903791079c2"
+        "id": "c17bcd70-bad5-4c71-8d07-21c48168cdf7"
       }
     ],
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "pembaayaran",
+        "ui": {
+          "active": true,
+          "left": 1283,
+          "top": 78,
+          "zIndex": 70,
+          "width": 127,
+          "height": 100
+        },
+        "id": "765f5035-911f-4fdd-a44a-4fa036dc351f"
+      }
+    ]
   },
   "relationship": {
     "relationships": [
@@ -1567,8 +1672,8 @@
           "columnIds": [
             "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
-          "x": 803.9791,
-          "y": 483.5061,
+          "x": 796.5552,
+          "y": 516.7097,
           "direction": "left"
         },
         "end": {
@@ -1576,8 +1681,8 @@
           "columnIds": [
             "8e3ca9be-4e85-4c1e-8471-2a4cd8963e6b"
           ],
-          "x": 636.78963125,
-          "y": 486.7875,
+          "x": 468.76803125000004,
+          "y": 594.9153,
           "direction": "right"
         },
         "constraintName": "fk__to_",
@@ -1602,8 +1707,8 @@
           "columnIds": [
             "8fb9a87f-a243-4eb2-a7c1-41cf07484e33"
           ],
-          "x": 803.9791,
-          "y": 203.0061,
+          "x": 796.5552,
+          "y": 246.4597,
           "direction": "left"
         },
         "constraintName": "fk__to_",
@@ -1619,8 +1724,8 @@
           "columnIds": [
             "674cd86e-e053-4221-bd08-30f11522201b"
           ],
-          "x": 1606.343444140625,
-          "y": 373.1988,
+          "x": 1488.119144140625,
+          "y": 451.1541,
           "direction": "top"
         },
         "end": {
@@ -1628,8 +1733,8 @@
           "columnIds": [
             "396ccd62-f1b6-4ae6-bdf5-37b1b723c412"
           ],
-          "x": 1606.800228125,
-          "y": 281.2318,
+          "x": 1480.577028125,
+          "y": 353.3206,
           "direction": "bottom"
         },
         "constraintName": "fk_klotter_to_jdw",
@@ -1645,8 +1750,8 @@
           "columnIds": [
             "c8f1ee1d-8a4b-4ca1-a962-63867552f9a3"
           ],
-          "x": 1280.45126796875,
-          "y": 343.2561,
+          "x": 1159.02736796875,
+          "y": 410.5847,
           "direction": "right"
         },
         "end": {
@@ -1654,8 +1759,8 @@
           "columnIds": [
             "e3b3e9a0-8f30-4419-b8e0-1ff71adf5279"
           ],
-          "x": 1370.3764,
-          "y": 195.48180000000002,
+          "x": 1244.1532,
+          "y": 267.5706,
           "direction": "left"
         },
         "constraintName": "fk_cust_closing_to_jdw",

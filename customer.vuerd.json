@@ -3,8 +3,13 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -170.39999999999952,
-    "scrollLeft": -71.19999999999993,
+<<<<<<< HEAD
+    "scrollTop": 0,
+    "scrollLeft": 0,
+=======
+    "scrollTop": -58.40000000000009,
+    "scrollLeft": -68.80000000000001,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -1055,10 +1060,17 @@
           }
         ],
         "ui": {
+<<<<<<< HEAD
+          "active": true,
+          "left": 678.3336,
+          "top": 753.1118,
+          "zIndex": 7,
+=======
           "active": false,
           "left": 684.3336,
           "top": 592.1118,
-          "zIndex": 4,
+          "zIndex": 5,
+>>>>>>> 21bc36268e15796b80f30859c4189b655627d69c
           "widthName": 60,
           "widthComment": 60
         },
@@ -1173,8 +1185,8 @@
           "columnIds": [
             "3a575296-d87d-4bb3-a0b4-b225f2fb2e88"
           ],
-          "x": 684.3336,
-          "y": 657.3618,
+          "x": 678.3336,
+          "y": 818.3618,
           "direction": "left"
         },
         "end": {
@@ -1182,8 +1194,8 @@
           "columnIds": [
             "f0320104-1e3c-4832-9478-a2bc3ea9cbae"
           ],
-          "x": 481.13587734375,
-          "y": 478.8442,
+          "x": 476.30589687500003,
+          "y": 568.9608666666667,
           "direction": "right"
         },
         "constraintName": "fk_db_chanel_to_virtual_account",
@@ -1208,8 +1220,8 @@
           "columnIds": [
             "a9b5b4c6-e089-4a56-a517-a8ec1613f79c"
           ],
-          "x": 481.13587734375,
-          "y": 542.8442,
+          "x": 476.30589687500003,
+          "y": 511.79420000000005,
           "direction": "right"
         },
         "constraintName": "fk_cust_subs_to_virtual_account",

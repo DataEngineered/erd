@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -45.599999999999994,
+    "scrollTop": -1,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -116,6 +116,29 @@
             "id": "b7fb4694-de79-47cb-b0a1-b43580ed6848"
           },
           {
+            "name": "tipe_promo",
+            "comment": "",
+            "dataType": "ENUM('Potongan','Diskon','Komisi')",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.0380859375,
+              "widthComment": 60,
+              "widthDataType": 205.455078125,
+              "widthDefault": 60
+            },
+            "id": "1510ac1c-6368-454f-97a3-dfd581028916"
+          },
+          {
             "name": "nominal",
             "comment": "",
             "dataType": "INT",
@@ -137,6 +160,29 @@
               "widthDefault": 60
             },
             "id": "4ff4fb83-3907-471b-a058-ca24d0f57e08"
+          },
+          {
+            "name": "jml_promo",
+            "comment": "",
+            "dataType": "NUMERIC(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.68359375,
+              "widthComment": 60,
+              "widthDataType": 85.78271484375,
+              "widthDefault": 60
+            },
+            "id": "0f821922-366f-4c2e-b558-98ab826cad65"
           },
           {
             "name": "tanggal_terbuat",
@@ -210,7 +256,7 @@
           {
             "name": "keterangan",
             "comment": "",
-            "dataType": "TEXT",
+            "dataType": "VARCHAR(100)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -225,15 +271,15 @@
               "pfk": false,
               "widthName": 67.05078125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
-            "id": "80986268-77eb-4218-a135-2084fb66f125"
+            "id": "9ce290d2-7433-4da0-83d7-2658544e0536"
           },
           {
-            "name": "cara_pemakaian",
+            "name": "skk",
             "comment": "",
-            "dataType": "MEDIUMTEXT",
+            "dataType": "VARCHAR(255)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -246,19 +292,19 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 98.1162109375,
+              "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 87.94091796875,
+              "widthDataType": 94.94873046875,
               "widthDefault": 60
             },
-            "id": "a8403a5f-1533-4c4d-a5ef-ef654cc82ca9"
+            "id": "15cb1e73-885f-4a7a-895b-adcf70bf72ae"
           }
         ],
         "ui": {
           "active": true,
-          "left": 694.2,
-          "top": 58.4,
-          "zIndex": 9,
+          "left": 1045.4,
+          "top": 333.2,
+          "zIndex": 56,
           "widthName": 60,
           "widthComment": 80.76806640625
         },
@@ -387,9 +433,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 112,
-          "top": 110.4,
-          "zIndex": 2,
+          "left": 151.8,
+          "top": 382.8,
+          "zIndex": 37,
           "widthName": 89.42626953125,
           "widthComment": 60
         },
@@ -413,8 +459,8 @@
           "columnIds": [
             "f5fc8e21-ba14-469d-94fb-5fb90cf63237"
           ],
-          "x": 694.2,
-          "y": 185.15,
+          "x": 1045.4,
+          "y": 480.45,
           "direction": "left"
         },
         "end": {
@@ -422,8 +468,8 @@
           "columnIds": [
             "94ab1abd-0b67-4ddf-81ac-6b811365d45c"
           ],
-          "x": 542.19580078125,
-          "y": 196.15,
+          "x": 581.99580078125,
+          "y": 468.55,
           "direction": "right"
         },
         "constraintName": "fk_program_to_pemk_program",
